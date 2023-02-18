@@ -1,0 +1,1 @@
+/home/shelfer/my_ros2_ws/build/controller_interfaces/ament_cmake_python/controller_interfaces/controller_interfaces.egg-info/dependency_links.txt

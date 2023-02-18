@@ -1,0 +1,18 @@
+[4.492s] Invoking command in '/home/shelfer/my_ros2_ws/build/cugo_controller': PYTHONPATH=/home/shelfer/my_ros2_ws/build/cugo_controller/prefix_override:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shelfer/my_ros2_ws/build/cugo_controller/build --no-deps install_data
+[5.771s] running develop
+[6.622s] running egg_info
+[6.623s] writing cugo_controller.egg-info/PKG-INFO
+[6.624s] writing dependency_links to cugo_controller.egg-info/dependency_links.txt
+[6.625s] writing entry points to cugo_controller.egg-info/entry_points.txt
+[6.626s] writing requirements to cugo_controller.egg-info/requires.txt
+[6.626s] writing top-level names to cugo_controller.egg-info/top_level.txt
+[6.635s] reading manifest file 'cugo_controller.egg-info/SOURCES.txt'
+[6.638s] writing manifest file 'cugo_controller.egg-info/SOURCES.txt'
+[6.644s] running build_ext
+[6.645s] Creating /home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages/cugo-controller.egg-link (link to .)
+[6.648s] Installing ps_publisher script to /home/shelfer/my_ros2_ws/install/cugo_controller/lib/cugo_controller
+[6.649s] Installing ps_subscriber script to /home/shelfer/my_ros2_ws/install/cugo_controller/lib/cugo_controller
+[6.650s] 
+[6.651s] Installed /home/shelfer/my_ros2_ws/build/cugo_controller
+[6.651s] running install_data
+[6.820s] Invoked command in '/home/shelfer/my_ros2_ws/build/cugo_controller' returned '0': PYTHONPATH=/home/shelfer/my_ros2_ws/build/cugo_controller/prefix_override:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shelfer/my_ros2_ws/build/cugo_controller/build --no-deps install_data

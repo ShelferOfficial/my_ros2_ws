@@ -1,0 +1,1 @@
+/home/shelfer/my_ros2_ws/src/build/controller_interfaces/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_introspection_c.c

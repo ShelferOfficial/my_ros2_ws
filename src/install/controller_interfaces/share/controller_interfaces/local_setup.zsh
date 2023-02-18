@@ -1,0 +1,1 @@
+/home/shelfer/my_ros2_ws/src/build/controller_interfaces/ament_cmake_environment_hooks/local_setup.zsh
