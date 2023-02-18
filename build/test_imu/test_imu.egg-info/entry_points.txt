@@ -1,0 +1,3 @@
+[console_scripts]
+temperature_subscriber = test_imu.temperature_subscriber:main
+
