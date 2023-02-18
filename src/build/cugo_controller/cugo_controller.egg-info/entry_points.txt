@@ -1,4 +1,0 @@
-[console_scripts]
-ps_publisher = cugo_controller.ps_publisher:main
-ps_subscriber = cugo_controller.ps_subscriber:main
-

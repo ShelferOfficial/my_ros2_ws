@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/shelfer/my_ros2_ws/src/build/rt_usb_9axisimu_driver/rt_usb_9axisimu_driver" "TARGETS" "rt_usb_9axisimu_driver" "DESTINATION" "lib/rt_usb_9axisimu_driver")

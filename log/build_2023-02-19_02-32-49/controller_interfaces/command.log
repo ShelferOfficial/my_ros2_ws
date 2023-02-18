@@ -1,0 +1,4 @@
+Invoking command in '/home/shelfer/my_ros2_ws/build/controller_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shelfer/my_ros2_ws/build/controller_interfaces -- -j4 -l4
+Invoked command in '/home/shelfer/my_ros2_ws/build/controller_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shelfer/my_ros2_ws/build/controller_interfaces -- -j4 -l4
+Invoking command in '/home/shelfer/my_ros2_ws/build/controller_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shelfer/my_ros2_ws/build/controller_interfaces
+Invoked command in '/home/shelfer/my_ros2_ws/build/controller_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shelfer/my_ros2_ws/build/controller_interfaces

@@ -1,1 +1,0 @@
-/home/shelfer/my_ros2_ws/src/build/controller_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

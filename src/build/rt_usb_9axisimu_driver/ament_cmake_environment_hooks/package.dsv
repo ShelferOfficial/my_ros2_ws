@@ -1,4 +1,0 @@
-source;share/rt_usb_9axisimu_driver/local_setup.bash
-source;share/rt_usb_9axisimu_driver/local_setup.dsv
-source;share/rt_usb_9axisimu_driver/local_setup.sh
-source;share/rt_usb_9axisimu_driver/local_setup.zsh

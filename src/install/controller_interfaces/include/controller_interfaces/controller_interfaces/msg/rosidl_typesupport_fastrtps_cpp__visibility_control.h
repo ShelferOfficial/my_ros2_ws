@@ -1,1 +1,0 @@
-/home/shelfer/my_ros2_ws/src/build/controller_interfaces/rosidl_typesupport_fastrtps_cpp/controller_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

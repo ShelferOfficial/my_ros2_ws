@@ -1,6 +1,0 @@
-{
-  "package_name": "controller_interfaces",
-  "non_idl_tuples": [
-    "/home/shelfer/my_ros2_ws/src/controller_interfaces:msg/Num.msg"
-  ]
-}

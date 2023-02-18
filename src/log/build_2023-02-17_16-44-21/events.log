@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.001223] (-) JobUnselected: {'identifier': 'controller_interfaces'}
-[0.001339] (-) JobUnselected: {'identifier': 'cugo_controller'}
-[0.001420] (-) JobUnselected: {'identifier': 'ps_ros2_common'}
-[0.001498] (-) JobUnselected: {'identifier': 'rt_usb_9axisimu_driver'}
-[0.002379] (-) EventReactorShutdown: {}

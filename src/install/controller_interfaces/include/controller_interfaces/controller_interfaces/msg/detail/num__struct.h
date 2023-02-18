@@ -1,1 +1,0 @@
-/home/shelfer/my_ros2_ws/src/build/controller_interfaces/rosidl_generator_c/controller_interfaces/msg/detail/num__struct.h
