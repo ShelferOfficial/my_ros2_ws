@@ -1,0 +1,3 @@
+bool is_obstacle
+---
+bool is_received

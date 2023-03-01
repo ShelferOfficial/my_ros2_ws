@@ -20,8 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'ps_subscriber = cugo_controller.ps_subscriber:main',
-            'ps_publisher = cugo_controller.ps_publisher:main',
+            'cugo_controller = cugo_controller.cugo_controller:main',
+            'ps4_publisher = cugo_controller.ps4_publisher:main',
+            'ultrasonic_client = cugo_controller.ultrasonic_client:main',
         ],
     },
 )
