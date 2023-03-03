@@ -60,18 +60,21 @@ class Num(metaclass=Metaclass_Num):
         '_x',
         '_y',
         '_dir',
+        '_is_no_one',
     ]
 
     _fields_and_field_types = {
         'x': 'double',
         'y': 'double',
         'dir': 'int8',
+        'is_no_one': 'boolean',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('int8'),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -81,6 +84,7 @@ class Num(metaclass=Metaclass_Num):
         self.x = kwargs.get('x', float())
         self.y = kwargs.get('y', float())
         self.dir = kwargs.get('dir', int())
+        self.is_no_one = kwargs.get('is_no_one', bool())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -116,6 +120,8 @@ class Num(metaclass=Metaclass_Num):
         if self.y != other.y:
             return False
         if self.dir != other.dir:
+            return False
+        if self.is_no_one != other.is_no_one:
             return False
         return True
 
@@ -168,3 +174,16 @@ class Num(metaclass=Metaclass_Num):
             assert value >= -128 and value < 128, \
                 "The 'dir' field must be an integer in [-128, 127]"
         self._dir = value
+
+    @builtins.property
+    def is_no_one(self):
+        """Message field 'is_no_one'."""
+        return self._is_no_one
+
+    @is_no_one.setter
+    def is_no_one(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, bool), \
+                "The 'is_no_one' field must be of type 'bool'"
+        self._is_no_one = value

@@ -1,0 +1,28 @@
+[2.053s] Invoking command in '/home/shelfer/my_ros2_ws/build/ps_ros2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --build /home/shelfer/my_ros2_ws/build/ps_ros2_common -- -j4 -l4
+[2.435s] [ 50%] Built target joy_test
+[2.473s] [100%] Built target ps_ros2_common
+[2.534s] Invoked command in '/home/shelfer/my_ros2_ws/build/ps_ros2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --build /home/shelfer/my_ros2_ws/build/ps_ros2_common -- -j4 -l4
+[2.892s] Invoking command in '/home/shelfer/my_ros2_ws/build/ps_ros2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --install /home/shelfer/my_ros2_ws/build/ps_ros2_common
+[2.937s] -- Install configuration: ""
+[2.941s] -- Execute custom install script
+[2.944s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/lib/ps_ros2_common/joy_test
+[2.960s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/launch/test.launch.py
+[2.962s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/launch/test_composable.launch.py
+[2.965s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ament_index/resource_index/package_run_dependencies/ps_ros2_common
+[2.969s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ament_index/resource_index/parent_prefix_path/ps_ros2_common
+[2.971s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/environment/ament_prefix_path.sh
+[2.974s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/environment/ament_prefix_path.dsv
+[2.976s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/environment/path.sh
+[2.978s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/environment/path.dsv
+[2.979s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/local_setup.bash
+[2.980s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/local_setup.sh
+[2.982s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/local_setup.zsh
+[2.983s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/local_setup.dsv
+[2.983s] -- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/package.dsv
+[3.030s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ament_index/resource_index/packages/ps_ros2_common
+[3.033s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ament_index/resource_index/rclcpp_components/ps_ros2_common
+[3.035s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/cmake/ps_ros2_commonConfig.cmake
+[3.036s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/cmake/ps_ros2_commonConfig-version.cmake
+[3.038s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/package.xml
+[3.040s] -- Up-to-date: /home/shelfer/my_ros2_ws/install/ps_ros2_common/lib/libps_ros2_common.so
+[3.073s] Invoked command in '/home/shelfer/my_ros2_ws/build/ps_ros2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --install /home/shelfer/my_ros2_ws/build/ps_ros2_common

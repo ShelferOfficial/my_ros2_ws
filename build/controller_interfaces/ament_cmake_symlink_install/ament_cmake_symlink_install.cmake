@@ -361,8 +361,20 @@ include("/home/shelfer/my_ros2_ws/build/controller_interfaces/ament_cmake_symlin
 # install(FILES "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_adapter/controller_interfaces/msg/Num.idl" "DESTINATION" "share/controller_interfaces/msg")
 ament_cmake_symlink_install_files("/home/shelfer/my_ros2_ws/src/controller_interfaces" FILES "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_adapter/controller_interfaces/msg/Num.idl" "DESTINATION" "share/controller_interfaces/msg")
 
+# install(FILES "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_adapter/controller_interfaces/srv/Ultra.idl" "DESTINATION" "share/controller_interfaces/srv")
+ament_cmake_symlink_install_files("/home/shelfer/my_ros2_ws/src/controller_interfaces" FILES "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_adapter/controller_interfaces/srv/Ultra.idl" "DESTINATION" "share/controller_interfaces/srv")
+
 # install(FILES "/home/shelfer/my_ros2_ws/src/controller_interfaces/msg/Num.msg" "DESTINATION" "share/controller_interfaces/msg")
 ament_cmake_symlink_install_files("/home/shelfer/my_ros2_ws/src/controller_interfaces" FILES "/home/shelfer/my_ros2_ws/src/controller_interfaces/msg/Num.msg" "DESTINATION" "share/controller_interfaces/msg")
+
+# install(FILES "/home/shelfer/my_ros2_ws/src/controller_interfaces/srv/Ultra.srv" "DESTINATION" "share/controller_interfaces/srv")
+ament_cmake_symlink_install_files("/home/shelfer/my_ros2_ws/src/controller_interfaces" FILES "/home/shelfer/my_ros2_ws/src/controller_interfaces/srv/Ultra.srv" "DESTINATION" "share/controller_interfaces/srv")
+
+# install(FILES "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_cmake/srv/Ultra_Request.msg" "DESTINATION" "share/controller_interfaces/srv")
+ament_cmake_symlink_install_files("/home/shelfer/my_ros2_ws/src/controller_interfaces" FILES "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_cmake/srv/Ultra_Request.msg" "DESTINATION" "share/controller_interfaces/srv")
+
+# install(FILES "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_cmake/srv/Ultra_Response.msg" "DESTINATION" "share/controller_interfaces/srv")
+ament_cmake_symlink_install_files("/home/shelfer/my_ros2_ws/src/controller_interfaces" FILES "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_cmake/srv/Ultra_Response.msg" "DESTINATION" "share/controller_interfaces/srv")
 
 # install(FILES "/home/shelfer/my_ros2_ws/build/controller_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/controller_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/shelfer/my_ros2_ws/src/controller_interfaces" FILES "/home/shelfer/my_ros2_ws/build/controller_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/controller_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

@@ -1,0 +1,401 @@
+[1.640s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.641s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8a8d0d60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8a8d0880>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8a8d0880>>)
+[1.748s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.749s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shelfer/my_ros2_ws'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.804s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.804s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.804s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.805s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.805s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.806s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.806s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.806s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_interfaces) by extension 'ignore'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_interfaces) by extension 'ignore_ament_install'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_interfaces) by extensions ['colcon_pkg']
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_interfaces) by extension 'colcon_pkg'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_interfaces) by extensions ['colcon_meta']
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_interfaces) by extension 'colcon_meta'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_interfaces) by extensions ['ros']
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_interfaces) by extension 'ros'
+[1.820s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controller_interfaces' with type 'ros.ament_cmake' and name 'controller_interfaces'
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/cugo_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/cugo_controller) by extension 'ignore'
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/cugo_controller) by extension 'ignore_ament_install'
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/cugo_controller) by extensions ['colcon_pkg']
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/cugo_controller) by extension 'colcon_pkg'
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/cugo_controller) by extensions ['colcon_meta']
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/cugo_controller) by extension 'colcon_meta'
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/cugo_controller) by extensions ['ros']
+[1.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/cugo_controller) by extension 'ros'
+[1.825s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cugo_controller' with type 'ros.ament_python' and name 'cugo_controller'
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_ros2_common) by extensions ['ignore', 'ignore_ament_install']
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_ros2_common) by extension 'ignore'
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_ros2_common) by extension 'ignore_ament_install'
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_ros2_common) by extensions ['colcon_pkg']
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_ros2_common) by extension 'colcon_pkg'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_ros2_common) by extensions ['colcon_meta']
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_ros2_common) by extension 'colcon_meta'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_ros2_common) by extensions ['ros']
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ps_ros2_common) by extension 'ros'
+[1.830s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ps_ros2_common' with type 'ros.ament_cmake' and name 'ps_ros2_common'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_usb_9axisimu_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_usb_9axisimu_driver) by extension 'ignore'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_usb_9axisimu_driver) by extension 'ignore_ament_install'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_usb_9axisimu_driver) by extensions ['colcon_pkg']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_usb_9axisimu_driver) by extension 'colcon_pkg'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_usb_9axisimu_driver) by extensions ['colcon_meta']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_usb_9axisimu_driver) by extension 'colcon_meta'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_usb_9axisimu_driver) by extensions ['ros']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_usb_9axisimu_driver) by extension 'ros'
+[1.836s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rt_usb_9axisimu_driver' with type 'ros.ament_cmake' and name 'rt_usb_9axisimu_driver'
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_imu) by extensions ['ignore', 'ignore_ament_install']
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_imu) by extension 'ignore'
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_imu) by extension 'ignore_ament_install'
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_imu) by extensions ['colcon_pkg']
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_imu) by extension 'colcon_pkg'
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_imu) by extensions ['colcon_meta']
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_imu) by extension 'colcon_meta'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_imu) by extensions ['ros']
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_imu) by extension 'ros'
+[1.840s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_imu' with type 'ros.ament_python' and name 'test_imu'
+[1.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.952s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/shelfer/my_ros2_ws/install
+[1.966s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 388 installed packages in /opt/ros/humble
+[1.978s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.323s] Level 5:colcon.colcon_core.verb:set package 'controller_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.323s] Level 5:colcon.colcon_core.verb:set package 'controller_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.323s] Level 5:colcon.colcon_core.verb:set package 'controller_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.323s] Level 5:colcon.colcon_core.verb:set package 'controller_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.324s] Level 5:colcon.colcon_core.verb:set package 'controller_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.324s] Level 5:colcon.colcon_core.verb:set package 'controller_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.324s] Level 5:colcon.colcon_core.verb:set package 'controller_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.324s] Level 5:colcon.colcon_core.verb:set package 'controller_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.324s] Level 5:colcon.colcon_core.verb:set package 'controller_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.324s] DEBUG:colcon.colcon_core.verb:Building package 'controller_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shelfer/my_ros2_ws/build/controller_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shelfer/my_ros2_ws/install/controller_interfaces', 'merge_install': False, 'path': '/home/shelfer/my_ros2_ws/src/controller_interfaces', 'symlink_install': True, 'test_result_base': None}
+[2.328s] Level 5:colcon.colcon_core.verb:set package 'cugo_controller' build argument 'cmake_args' from command line to 'None'
+[2.329s] Level 5:colcon.colcon_core.verb:set package 'cugo_controller' build argument 'cmake_target' from command line to 'None'
+[2.329s] Level 5:colcon.colcon_core.verb:set package 'cugo_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.329s] Level 5:colcon.colcon_core.verb:set package 'cugo_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[2.329s] Level 5:colcon.colcon_core.verb:set package 'cugo_controller' build argument 'cmake_clean_first' from command line to 'False'
+[2.329s] Level 5:colcon.colcon_core.verb:set package 'cugo_controller' build argument 'cmake_force_configure' from command line to 'False'
+[2.329s] Level 5:colcon.colcon_core.verb:set package 'cugo_controller' build argument 'ament_cmake_args' from command line to 'None'
+[2.329s] Level 5:colcon.colcon_core.verb:set package 'cugo_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[2.329s] Level 5:colcon.colcon_core.verb:set package 'cugo_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.330s] DEBUG:colcon.colcon_core.verb:Building package 'cugo_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shelfer/my_ros2_ws/build/cugo_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shelfer/my_ros2_ws/install/cugo_controller', 'merge_install': False, 'path': '/home/shelfer/my_ros2_ws/src/cugo_controller', 'symlink_install': True, 'test_result_base': None}
+[2.334s] Level 5:colcon.colcon_core.verb:set package 'ps_ros2_common' build argument 'cmake_args' from command line to 'None'
+[2.334s] Level 5:colcon.colcon_core.verb:set package 'ps_ros2_common' build argument 'cmake_target' from command line to 'None'
+[2.334s] Level 5:colcon.colcon_core.verb:set package 'ps_ros2_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.334s] Level 5:colcon.colcon_core.verb:set package 'ps_ros2_common' build argument 'cmake_clean_cache' from command line to 'False'
+[2.334s] Level 5:colcon.colcon_core.verb:set package 'ps_ros2_common' build argument 'cmake_clean_first' from command line to 'False'
+[2.334s] Level 5:colcon.colcon_core.verb:set package 'ps_ros2_common' build argument 'cmake_force_configure' from command line to 'False'
+[2.334s] Level 5:colcon.colcon_core.verb:set package 'ps_ros2_common' build argument 'ament_cmake_args' from command line to 'None'
+[2.335s] Level 5:colcon.colcon_core.verb:set package 'ps_ros2_common' build argument 'catkin_cmake_args' from command line to 'None'
+[2.335s] Level 5:colcon.colcon_core.verb:set package 'ps_ros2_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.335s] DEBUG:colcon.colcon_core.verb:Building package 'ps_ros2_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shelfer/my_ros2_ws/build/ps_ros2_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shelfer/my_ros2_ws/install/ps_ros2_common', 'merge_install': False, 'path': '/home/shelfer/my_ros2_ws/src/ps_ros2_common', 'symlink_install': True, 'test_result_base': None}
+[2.339s] Level 5:colcon.colcon_core.verb:set package 'rt_usb_9axisimu_driver' build argument 'cmake_args' from command line to 'None'
+[2.339s] Level 5:colcon.colcon_core.verb:set package 'rt_usb_9axisimu_driver' build argument 'cmake_target' from command line to 'None'
+[2.339s] Level 5:colcon.colcon_core.verb:set package 'rt_usb_9axisimu_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'rt_usb_9axisimu_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'rt_usb_9axisimu_driver' build argument 'cmake_clean_first' from command line to 'False'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'rt_usb_9axisimu_driver' build argument 'cmake_force_configure' from command line to 'False'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'rt_usb_9axisimu_driver' build argument 'ament_cmake_args' from command line to 'None'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'rt_usb_9axisimu_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'rt_usb_9axisimu_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.340s] DEBUG:colcon.colcon_core.verb:Building package 'rt_usb_9axisimu_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver', 'merge_install': False, 'path': '/home/shelfer/my_ros2_ws/src/rt_usb_9axisimu_driver', 'symlink_install': True, 'test_result_base': None}
+[2.344s] Level 5:colcon.colcon_core.verb:set package 'test_imu' build argument 'cmake_args' from command line to 'None'
+[2.344s] Level 5:colcon.colcon_core.verb:set package 'test_imu' build argument 'cmake_target' from command line to 'None'
+[2.345s] Level 5:colcon.colcon_core.verb:set package 'test_imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.345s] Level 5:colcon.colcon_core.verb:set package 'test_imu' build argument 'cmake_clean_cache' from command line to 'False'
+[2.345s] Level 5:colcon.colcon_core.verb:set package 'test_imu' build argument 'cmake_clean_first' from command line to 'False'
+[2.345s] Level 5:colcon.colcon_core.verb:set package 'test_imu' build argument 'cmake_force_configure' from command line to 'False'
+[2.345s] Level 5:colcon.colcon_core.verb:set package 'test_imu' build argument 'ament_cmake_args' from command line to 'None'
+[2.345s] Level 5:colcon.colcon_core.verb:set package 'test_imu' build argument 'catkin_cmake_args' from command line to 'None'
+[2.345s] Level 5:colcon.colcon_core.verb:set package 'test_imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.345s] DEBUG:colcon.colcon_core.verb:Building package 'test_imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shelfer/my_ros2_ws/build/test_imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shelfer/my_ros2_ws/install/test_imu', 'merge_install': False, 'path': '/home/shelfer/my_ros2_ws/src/test_imu', 'symlink_install': True, 'test_result_base': None}
+[2.348s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.361s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.363s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shelfer/my_ros2_ws/src/controller_interfaces' with build type 'ament_cmake'
+[2.363s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shelfer/my_ros2_ws/src/controller_interfaces'
+[2.383s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.384s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.384s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.416s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shelfer/my_ros2_ws/src/cugo_controller' with build type 'ament_python'
+[2.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('cugo_controller', 'ament_prefix_path')
+[2.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/cugo_controller/share/cugo_controller/hook/ament_prefix_path.ps1'
+[2.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/install/cugo_controller/share/cugo_controller/hook/ament_prefix_path.dsv'
+[2.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/cugo_controller/share/cugo_controller/hook/ament_prefix_path.sh'
+[2.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.471s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shelfer/my_ros2_ws/src/ps_ros2_common' with build type 'ament_cmake'
+[2.472s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shelfer/my_ros2_ws/src/ps_ros2_common'
+[2.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.480s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.511s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shelfer/my_ros2_ws/src/rt_usb_9axisimu_driver' with build type 'ament_cmake'
+[2.512s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shelfer/my_ros2_ws/src/rt_usb_9axisimu_driver'
+[2.519s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.519s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shelfer/my_ros2_ws/build/controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --build /home/shelfer/my_ros2_ws/build/controller_interfaces -- -j4 -l4
+[4.497s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shelfer/my_ros2_ws/src/cugo_controller'
+[4.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shelfer/my_ros2_ws/build/ps_ros2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --build /home/shelfer/my_ros2_ws/build/ps_ros2_common -- -j4 -l4
+[4.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --build /home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver -- -j4 -l4
+[5.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shelfer/my_ros2_ws/build/ps_ros2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --build /home/shelfer/my_ros2_ws/build/ps_ros2_common -- -j4 -l4
+[5.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shelfer/my_ros2_ws/build/controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --build /home/shelfer/my_ros2_ws/build/controller_interfaces -- -j4 -l4
+[5.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shelfer/my_ros2_ws/build/ps_ros2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --install /home/shelfer/my_ros2_ws/build/ps_ros2_common
+[5.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --build /home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver -- -j4 -l4
+[5.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ps_ros2_common)
+[5.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shelfer/my_ros2_ws/build/ps_ros2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --install /home/shelfer/my_ros2_ws/build/ps_ros2_common
+[5.491s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/ps_ros2_common' for CMake module files
+[5.496s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/ps_ros2_common' for CMake config files
+[5.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('ps_ros2_common', 'cmake_prefix_path')
+[5.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/hook/cmake_prefix_path.ps1'
+[5.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/hook/cmake_prefix_path.dsv'
+[5.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/hook/cmake_prefix_path.sh'
+[5.515s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib'
+[5.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('ps_ros2_common', 'ld_library_path_lib')
+[5.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/hook/ld_library_path_lib.ps1'
+[5.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/hook/ld_library_path_lib.dsv'
+[5.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/hook/ld_library_path_lib.sh'
+[5.533s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/ps_ros2_common/bin'
+[5.534s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib/pkgconfig/ps_ros2_common.pc'
+[5.535s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib/python3.10/site-packages'
+[5.536s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/ps_ros2_common/bin'
+[5.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/package.ps1'
+[5.549s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/package.dsv'
+[5.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/package.sh'
+[5.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/package.bash'
+[5.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/package.zsh'
+[5.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/colcon-core/packages/ps_ros2_common)
+[5.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --install /home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver
+[5.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ps_ros2_common)
+[5.774s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/ps_ros2_common' for CMake module files
+[5.783s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/ps_ros2_common' for CMake config files
+[5.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('ps_ros2_common', 'cmake_prefix_path')
+[5.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/hook/cmake_prefix_path.ps1'
+[5.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/hook/cmake_prefix_path.dsv'
+[5.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/hook/cmake_prefix_path.sh'
+[5.802s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib'
+[5.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('ps_ros2_common', 'ld_library_path_lib')
+[5.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/hook/ld_library_path_lib.ps1'
+[5.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/hook/ld_library_path_lib.dsv'
+[5.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/hook/ld_library_path_lib.sh'
+[5.816s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/ps_ros2_common/bin'
+[5.817s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib/pkgconfig/ps_ros2_common.pc'
+[5.818s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib/python3.10/site-packages'
+[5.819s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/ps_ros2_common/bin'
+[5.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/package.ps1'
+[5.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/package.dsv'
+[5.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/package.sh'
+[5.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/package.bash'
+[5.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/package.zsh'
+[5.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shelfer/my_ros2_ws/install/ps_ros2_common/share/colcon-core/packages/ps_ros2_common)
+[5.846s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shelfer/my_ros2_ws/src/test_imu' with build type 'ament_python'
+[5.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_imu', 'ament_prefix_path')
+[5.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/test_imu/share/test_imu/hook/ament_prefix_path.ps1'
+[5.858s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/install/test_imu/share/test_imu/hook/ament_prefix_path.dsv'
+[5.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/test_imu/share/test_imu/hook/ament_prefix_path.sh'
+[5.874s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.875s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.919s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rt_usb_9axisimu_driver)
+[5.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --install /home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver
+[5.940s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver' for CMake module files
+[5.944s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver' for CMake config files
+[5.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('rt_usb_9axisimu_driver', 'cmake_prefix_path')
+[5.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/hook/cmake_prefix_path.ps1'
+[5.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/hook/cmake_prefix_path.dsv'
+[5.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/hook/cmake_prefix_path.sh'
+[5.962s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib'
+[5.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('rt_usb_9axisimu_driver', 'ld_library_path_lib')
+[5.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/hook/ld_library_path_lib.ps1'
+[5.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/hook/ld_library_path_lib.dsv'
+[5.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/hook/ld_library_path_lib.sh'
+[5.976s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/bin'
+[5.976s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib/pkgconfig/rt_usb_9axisimu_driver.pc'
+[5.977s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib/python3.10/site-packages'
+[5.978s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/bin'
+[5.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/package.ps1'
+[5.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/package.dsv'
+[5.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/package.sh'
+[5.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/package.bash'
+[5.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/package.zsh'
+[5.997s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/colcon-core/packages/rt_usb_9axisimu_driver)
+[7.581s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shelfer/my_ros2_ws/src/test_imu'
+[7.587s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.587s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shelfer/my_ros2_ws/build/controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --install /home/shelfer/my_ros2_ws/build/controller_interfaces
+[7.644s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rt_usb_9axisimu_driver)
+[7.656s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver' for CMake module files
+[7.660s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver' for CMake config files
+[7.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('rt_usb_9axisimu_driver', 'cmake_prefix_path')
+[7.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/hook/cmake_prefix_path.ps1'
+[7.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/hook/cmake_prefix_path.dsv'
+[7.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/hook/cmake_prefix_path.sh'
+[7.685s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib'
+[7.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('rt_usb_9axisimu_driver', 'ld_library_path_lib')
+[7.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/hook/ld_library_path_lib.ps1'
+[7.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/hook/ld_library_path_lib.dsv'
+[7.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/hook/ld_library_path_lib.sh'
+[7.704s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/bin'
+[7.705s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib/pkgconfig/rt_usb_9axisimu_driver.pc'
+[7.706s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib/python3.10/site-packages'
+[7.707s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/bin'
+[7.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/package.ps1'
+[7.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/package.dsv'
+[7.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/package.sh'
+[7.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/package.bash'
+[7.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/package.zsh'
+[7.735s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/colcon-core/packages/rt_usb_9axisimu_driver)
+[7.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shelfer/my_ros2_ws/build/cugo_controller': PYTHONPATH=/home/shelfer/my_ros2_ws/build/cugo_controller/prefix_override:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shelfer/my_ros2_ws/build/cugo_controller/build --no-deps install_data
+[8.139s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller_interfaces)
+[8.150s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/controller_interfaces' for CMake module files
+[8.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shelfer/my_ros2_ws/build/controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --install /home/shelfer/my_ros2_ws/build/controller_interfaces
+[8.164s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/controller_interfaces' for CMake config files
+[8.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_interfaces', 'cmake_prefix_path')
+[8.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/hook/cmake_prefix_path.ps1'
+[8.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/hook/cmake_prefix_path.dsv'
+[8.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/hook/cmake_prefix_path.sh'
+[8.184s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/controller_interfaces/lib'
+[8.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_interfaces', 'ld_library_path_lib')
+[8.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/hook/ld_library_path_lib.ps1'
+[8.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/hook/ld_library_path_lib.dsv'
+[8.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/hook/ld_library_path_lib.sh'
+[8.198s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/controller_interfaces/bin'
+[8.198s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/pkgconfig/controller_interfaces.pc'
+[8.199s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/python3.10/site-packages'
+[8.200s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/controller_interfaces/bin'
+[8.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/package.ps1'
+[8.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/package.dsv'
+[8.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/package.sh'
+[8.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/package.bash'
+[8.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/package.zsh'
+[8.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shelfer/my_ros2_ws/install/controller_interfaces/share/colcon-core/packages/controller_interfaces)
+[8.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller_interfaces)
+[8.893s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/controller_interfaces' for CMake module files
+[8.898s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/controller_interfaces' for CMake config files
+[8.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_interfaces', 'cmake_prefix_path')
+[8.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/hook/cmake_prefix_path.ps1'
+[8.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/hook/cmake_prefix_path.dsv'
+[8.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/hook/cmake_prefix_path.sh'
+[8.917s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/controller_interfaces/lib'
+[8.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_interfaces', 'ld_library_path_lib')
+[8.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/hook/ld_library_path_lib.ps1'
+[8.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/hook/ld_library_path_lib.dsv'
+[8.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/hook/ld_library_path_lib.sh'
+[8.932s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/controller_interfaces/bin'
+[8.932s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/pkgconfig/controller_interfaces.pc'
+[8.933s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/python3.10/site-packages'
+[8.934s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/controller_interfaces/bin'
+[8.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/package.ps1'
+[8.945s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/package.dsv'
+[8.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/package.sh'
+[8.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/package.bash'
+[8.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/package.zsh'
+[8.958s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shelfer/my_ros2_ws/install/controller_interfaces/share/colcon-core/packages/controller_interfaces)
+[9.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shelfer/my_ros2_ws/build/test_imu': PYTHONPATH=/home/shelfer/my_ros2_ws/build/test_imu/prefix_override:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shelfer/my_ros2_ws/build/test_imu/build --no-deps install_data
+[10.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('cugo_controller', 'pythonpath_develop')
+[10.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/build/cugo_controller/share/cugo_controller/hook/pythonpath_develop.ps1'
+[10.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shelfer/my_ros2_ws/build/cugo_controller' returned '0': PYTHONPATH=/home/shelfer/my_ros2_ws/build/cugo_controller/prefix_override:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shelfer/my_ros2_ws/build/cugo_controller/build --no-deps install_data
+[10.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/build/cugo_controller/share/cugo_controller/hook/pythonpath_develop.dsv'
+[10.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/build/cugo_controller/share/cugo_controller/hook/pythonpath_develop.sh'
+[10.889s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/cugo_controller' for CMake module files
+[10.891s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/cugo_controller' for CMake config files
+[10.894s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/cugo_controller/lib'
+[10.895s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/cugo_controller/bin'
+[10.895s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/cugo_controller/lib/pkgconfig/cugo_controller.pc'
+[10.896s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages'
+[10.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('cugo_controller', 'pythonpath')
+[10.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/cugo_controller/share/cugo_controller/hook/pythonpath.ps1'
+[10.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/install/cugo_controller/share/cugo_controller/hook/pythonpath.dsv'
+[10.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/cugo_controller/share/cugo_controller/hook/pythonpath.sh'
+[10.909s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/cugo_controller/bin'
+[10.910s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cugo_controller)
+[10.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/cugo_controller/share/cugo_controller/package.ps1'
+[10.918s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shelfer/my_ros2_ws/install/cugo_controller/share/cugo_controller/package.dsv'
+[10.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/cugo_controller/share/cugo_controller/package.sh'
+[10.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/cugo_controller/share/cugo_controller/package.bash'
+[10.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/cugo_controller/share/cugo_controller/package.zsh'
+[10.929s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shelfer/my_ros2_ws/install/cugo_controller/share/colcon-core/packages/cugo_controller)
+[12.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_imu', 'pythonpath_develop')
+[12.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/build/test_imu/share/test_imu/hook/pythonpath_develop.ps1'
+[12.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shelfer/my_ros2_ws/build/test_imu' returned '0': PYTHONPATH=/home/shelfer/my_ros2_ws/build/test_imu/prefix_override:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shelfer/my_ros2_ws/build/test_imu/build --no-deps install_data
+[12.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/build/test_imu/share/test_imu/hook/pythonpath_develop.dsv'
+[12.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/build/test_imu/share/test_imu/hook/pythonpath_develop.sh'
+[12.467s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/test_imu' for CMake module files
+[12.470s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/test_imu' for CMake config files
+[12.472s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/test_imu/lib'
+[12.473s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/test_imu/bin'
+[12.473s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/test_imu/lib/pkgconfig/test_imu.pc'
+[12.474s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages'
+[12.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_imu', 'pythonpath')
+[12.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/test_imu/share/test_imu/hook/pythonpath.ps1'
+[12.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shelfer/my_ros2_ws/install/test_imu/share/test_imu/hook/pythonpath.dsv'
+[12.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shelfer/my_ros2_ws/install/test_imu/share/test_imu/hook/pythonpath.sh'
+[12.485s] Level 1:colcon.colcon_core.environment:checking '/home/shelfer/my_ros2_ws/install/test_imu/bin'
+[12.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_imu)
+[12.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/test_imu/share/test_imu/package.ps1'
+[12.494s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shelfer/my_ros2_ws/install/test_imu/share/test_imu/package.dsv'
+[12.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/test_imu/share/test_imu/package.sh'
+[12.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/test_imu/share/test_imu/package.bash'
+[12.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/shelfer/my_ros2_ws/install/test_imu/share/test_imu/package.zsh'
+[12.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shelfer/my_ros2_ws/install/test_imu/share/colcon-core/packages/test_imu)
+[12.503s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.504s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.504s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.505s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.531s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.586s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.593s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shelfer/my_ros2_ws/install/local_setup.ps1'
+[12.598s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shelfer/my_ros2_ws/install/_local_setup_util_ps1.py'
+[12.603s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shelfer/my_ros2_ws/install/setup.ps1'
+[12.612s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shelfer/my_ros2_ws/install/local_setup.sh'
+[12.615s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shelfer/my_ros2_ws/install/_local_setup_util_sh.py'
+[12.618s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shelfer/my_ros2_ws/install/setup.sh'
+[12.628s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shelfer/my_ros2_ws/install/local_setup.bash'
+[12.631s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shelfer/my_ros2_ws/install/setup.bash'
+[12.640s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shelfer/my_ros2_ws/install/local_setup.zsh'
+[12.643s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shelfer/my_ros2_ws/install/setup.zsh'

@@ -1,0 +1,24 @@
+[5.203s] Invoking command in '/home/shelfer/my_ros2_ws/build/test_imu': PYTHONPATH=/home/shelfer/my_ros2_ws/build/test_imu/prefix_override:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shelfer/my_ros2_ws/build/test_imu/build --no-deps install_data
+[8.871s] running develop
+[12.834s] running egg_info
+[12.836s] creating test_imu.egg-info
+[12.839s] writing test_imu.egg-info/PKG-INFO
+[12.843s] writing dependency_links to test_imu.egg-info/dependency_links.txt
+[12.855s] writing entry points to test_imu.egg-info/entry_points.txt
+[12.859s] writing requirements to test_imu.egg-info/requires.txt
+[12.861s] writing top-level names to test_imu.egg-info/top_level.txt
+[12.864s] writing manifest file 'test_imu.egg-info/SOURCES.txt'
+[12.876s] reading manifest file 'test_imu.egg-info/SOURCES.txt'
+[12.880s] writing manifest file 'test_imu.egg-info/SOURCES.txt'
+[12.890s] running build_ext
+[12.893s] Creating /home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages/test-imu.egg-link (link to .)
+[12.902s] Installing temperature_subscriber script to /home/shelfer/my_ros2_ws/install/test_imu/lib/test_imu
+[12.906s] 
+[12.907s] Installed /home/shelfer/my_ros2_ws/build/test_imu
+[12.909s] running install_data
+[12.911s] creating /home/shelfer/my_ros2_ws/install/test_imu/share/ament_index
+[12.913s] creating /home/shelfer/my_ros2_ws/install/test_imu/share/ament_index/resource_index
+[12.914s] creating /home/shelfer/my_ros2_ws/install/test_imu/share/ament_index/resource_index/packages
+[12.917s] copying resource/test_imu -> /home/shelfer/my_ros2_ws/install/test_imu/share/ament_index/resource_index/packages
+[12.922s] copying package.xml -> /home/shelfer/my_ros2_ws/install/test_imu/share/test_imu
+[13.327s] Invoked command in '/home/shelfer/my_ros2_ws/build/test_imu' returned '0': PYTHONPATH=/home/shelfer/my_ros2_ws/build/test_imu/prefix_override:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shelfer/my_ros2_ws/build/test_imu/build --no-deps install_data

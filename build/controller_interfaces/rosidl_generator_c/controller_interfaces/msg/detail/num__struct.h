@@ -23,6 +23,7 @@ typedef struct controller_interfaces__msg__Num
   double x;
   double y;
   int8_t dir;
+  bool is_no_one;
 } controller_interfaces__msg__Num;
 
 // Struct for a sequence of controller_interfaces__msg__Num.

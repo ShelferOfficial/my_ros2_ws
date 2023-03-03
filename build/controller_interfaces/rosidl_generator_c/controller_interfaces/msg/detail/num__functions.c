@@ -20,6 +20,7 @@ controller_interfaces__msg__Num__init(controller_interfaces__msg__Num * msg)
   // x
   // y
   // dir
+  // is_no_one
   return true;
 }
 
@@ -32,6 +33,7 @@ controller_interfaces__msg__Num__fini(controller_interfaces__msg__Num * msg)
   // x
   // y
   // dir
+  // is_no_one
 }
 
 bool
@@ -52,6 +54,10 @@ controller_interfaces__msg__Num__are_equal(const controller_interfaces__msg__Num
   if (lhs->dir != rhs->dir) {
     return false;
   }
+  // is_no_one
+  if (lhs->is_no_one != rhs->is_no_one) {
+    return false;
+  }
   return true;
 }
 
@@ -69,6 +75,8 @@ controller_interfaces__msg__Num__copy(
   output->y = input->y;
   // dir
   output->dir = input->dir;
+  // is_no_one
+  output->is_no_one = input->is_no_one;
   return true;
 }
 

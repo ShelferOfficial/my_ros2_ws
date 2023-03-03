@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating cugo_controller.egg-info
+writing cugo_controller.egg-info/PKG-INFO
+writing dependency_links to cugo_controller.egg-info/dependency_links.txt
+writing entry points to cugo_controller.egg-info/entry_points.txt
+writing requirements to cugo_controller.egg-info/requires.txt
+writing top-level names to cugo_controller.egg-info/top_level.txt
+writing manifest file 'cugo_controller.egg-info/SOURCES.txt'
+reading manifest file 'cugo_controller.egg-info/SOURCES.txt'
+writing manifest file 'cugo_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages/cugo-controller.egg-link (link to .)
+Installing cugo_controller script to /home/shelfer/my_ros2_ws/install/cugo_controller/lib/cugo_controller
+Installing ps4_publisher script to /home/shelfer/my_ros2_ws/install/cugo_controller/lib/cugo_controller
+Installing ultrasonic_client script to /home/shelfer/my_ros2_ws/install/cugo_controller/lib/cugo_controller
+
+Installed /home/shelfer/my_ros2_ws/build/cugo_controller
+running install_data
+creating /home/shelfer/my_ros2_ws/install/cugo_controller/share/ament_index
+creating /home/shelfer/my_ros2_ws/install/cugo_controller/share/ament_index/resource_index
+creating /home/shelfer/my_ros2_ws/install/cugo_controller/share/ament_index/resource_index/packages
+copying resource/cugo_controller -> /home/shelfer/my_ros2_ws/install/cugo_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/shelfer/my_ros2_ws/install/cugo_controller/share/cugo_controller

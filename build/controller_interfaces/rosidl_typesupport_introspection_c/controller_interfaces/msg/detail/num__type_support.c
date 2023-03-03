@@ -31,7 +31,7 @@ void controller_interfaces__msg__Num__rosidl_typesupport_introspection_c__Num_fi
   controller_interfaces__msg__Num__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember controller_interfaces__msg__Num__rosidl_typesupport_introspection_c__Num_message_member_array[3] = {
+static rosidl_typesupport_introspection_c__MessageMember controller_interfaces__msg__Num__rosidl_typesupport_introspection_c__Num_message_member_array[4] = {
   {
     "x",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
@@ -82,13 +82,30 @@ static rosidl_typesupport_introspection_c__MessageMember controller_interfaces__
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "is_no_one",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(controller_interfaces__msg__Num, is_no_one),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers controller_interfaces__msg__Num__rosidl_typesupport_introspection_c__Num_message_members = {
   "controller_interfaces__msg",  // message namespace
   "Num",  // message name
-  3,  // number of fields
+  4,  // number of fields
   sizeof(controller_interfaces__msg__Num),
   controller_interfaces__msg__Num__rosidl_typesupport_introspection_c__Num_message_member_array,  // message members
   controller_interfaces__msg__Num__rosidl_typesupport_introspection_c__Num_init_function,  // function to initialize message memory (memory has to be allocated)

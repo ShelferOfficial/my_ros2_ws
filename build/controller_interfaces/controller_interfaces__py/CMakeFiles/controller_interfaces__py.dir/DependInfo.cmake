@@ -17,6 +17,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_py/controller_interfaces/msg/__init__.py" "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_py/controller_interfaces/msg/_num.py" "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_py/controller_interfaces/msg/_num_s.c" "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_py/controller_interfaces/srv/__init__.py" "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_py/controller_interfaces/srv/_ultra.py" "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_py/controller_interfaces/srv/_ultra_s.c" "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

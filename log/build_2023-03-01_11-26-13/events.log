@@ -1,0 +1,1322 @@
+[0.000000] (-) TimerEvent: {}
+[0.002055] (controller_interfaces) JobQueued: {'identifier': 'controller_interfaces', 'dependencies': OrderedDict()}
+[0.002746] (cugo_controller) JobQueued: {'identifier': 'cugo_controller', 'dependencies': OrderedDict()}
+[0.002843] (ps_ros2_common) JobQueued: {'identifier': 'ps_ros2_common', 'dependencies': OrderedDict()}
+[0.002923] (rt_usb_9axisimu_driver) JobQueued: {'identifier': 'rt_usb_9axisimu_driver', 'dependencies': OrderedDict()}
+[0.003001] (test_imu) JobQueued: {'identifier': 'test_imu', 'dependencies': OrderedDict()}
+[0.003081] (controller_interfaces) JobStarted: {'identifier': 'controller_interfaces'}
+[0.051614] (cugo_controller) JobStarted: {'identifier': 'cugo_controller'}
+[0.099894] (-) TimerEvent: {}
+[0.101562] (ps_ros2_common) JobStarted: {'identifier': 'ps_ros2_common'}
+[0.137923] (rt_usb_9axisimu_driver) JobStarted: {'identifier': 'rt_usb_9axisimu_driver'}
+[0.181218] (controller_interfaces) JobProgress: {'identifier': 'controller_interfaces', 'progress': 'cmake'}
+[0.182335] (controller_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/shelfer/my_ros2_ws/src/controller_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/shelfer/my_ros2_ws/install/controller_interfaces'], 'cwd': '/home/shelfer/my_ros2_ws/build/controller_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shelfer'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib:/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib:/home/shelfer/my_ros2_ws/install/controller_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shelfer'), ('OLDPWD', '/home/shelfer'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shelfer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shelfer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shelfer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shelfer-desktop:@/tmp/.ICE-unix/1282,unix/shelfer-desktop:/tmp/.ICE-unix/1282'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4c9a295b_b90f_4372_94b3_b17ce45f30f0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SDYJ01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/cugo_controller:/home/shelfer/my_ros2_ws/install/controller_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shelfer/my_ros2_ws/build/controller_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shelfer/my_ros2_ws/build/test_imu:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/build/cugo_controller:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/controller_interfaces:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble')]), 'shell': False}
+[0.200090] (-) TimerEvent: {}
+[0.300949] (-) TimerEvent: {}
+[0.401894] (-) TimerEvent: {}
+[0.502736] (-) TimerEvent: {}
+[0.603460] (-) TimerEvent: {}
+[0.704241] (-) TimerEvent: {}
+[0.805083] (-) TimerEvent: {}
+[0.905938] (-) TimerEvent: {}
+[1.006996] (-) TimerEvent: {}
+[1.107791] (-) TimerEvent: {}
+[1.208551] (-) TimerEvent: {}
+[1.309269] (-) TimerEvent: {}
+[1.410012] (-) TimerEvent: {}
+[1.511049] (-) TimerEvent: {}
+[1.612563] (-) TimerEvent: {}
+[1.713894] (-) TimerEvent: {}
+[1.723975] (ps_ros2_common) JobProgress: {'identifier': 'ps_ros2_common', 'progress': 'cmake'}
+[1.724912] (ps_ros2_common) Command: {'cmd': ['/usr/bin/cmake', '/home/shelfer/my_ros2_ws/src/ps_ros2_common', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/shelfer/my_ros2_ws/install/ps_ros2_common'], 'cwd': '/home/shelfer/my_ros2_ws/build/ps_ros2_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shelfer'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib:/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib:/home/shelfer/my_ros2_ws/install/controller_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shelfer'), ('OLDPWD', '/home/shelfer'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shelfer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shelfer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shelfer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shelfer-desktop:@/tmp/.ICE-unix/1282,unix/shelfer-desktop:/tmp/.ICE-unix/1282'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4c9a295b_b90f_4372_94b3_b17ce45f30f0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SDYJ01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/cugo_controller:/home/shelfer/my_ros2_ws/install/controller_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shelfer/my_ros2_ws/build/ps_ros2_common'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shelfer/my_ros2_ws/build/test_imu:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/build/cugo_controller:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/controller_interfaces:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble')]), 'shell': False}
+[1.742366] (controller_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.743183] (controller_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.743763] (controller_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.752316] (rt_usb_9axisimu_driver) JobProgress: {'identifier': 'rt_usb_9axisimu_driver', 'progress': 'cmake'}
+[1.755728] (rt_usb_9axisimu_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/shelfer/my_ros2_ws/src/rt_usb_9axisimu_driver', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver'], 'cwd': '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shelfer'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib:/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib:/home/shelfer/my_ros2_ws/install/controller_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shelfer'), ('OLDPWD', '/home/shelfer'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shelfer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shelfer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shelfer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shelfer-desktop:@/tmp/.ICE-unix/1282,unix/shelfer-desktop:/tmp/.ICE-unix/1282'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4c9a295b_b90f_4372_94b3_b17ce45f30f0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SDYJ01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/cugo_controller:/home/shelfer/my_ros2_ws/install/controller_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shelfer/my_ros2_ws/build/test_imu:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/build/cugo_controller:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/controller_interfaces:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble')]), 'shell': False}
+[1.814121] (-) TimerEvent: {}
+[1.915111] (-) TimerEvent: {}
+[2.016160] (-) TimerEvent: {}
+[2.062194] (controller_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.093872] (ps_ros2_common) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[2.102173] (controller_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.105118] (controller_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.109496] (controller_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.116445] (-) TimerEvent: {}
+[2.132670] (controller_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.160050] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[2.216629] (-) TimerEvent: {}
+[2.317571] (-) TimerEvent: {}
+[2.418798] (-) TimerEvent: {}
+[2.484951] (ps_ros2_common) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.514357] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.518960] (-) TimerEvent: {}
+[2.521983] (ps_ros2_common) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.559817] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.619202] (-) TimerEvent: {}
+[2.714589] (controller_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.719457] (-) TimerEvent: {}
+[2.760049] (controller_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.762593] (controller_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.765737] (controller_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.805814] (controller_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.819677] (-) TimerEvent: {}
+[2.921084] (-) TimerEvent: {}
+[2.952935] (ps_ros2_common) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.978076] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.994102] (ps_ros2_common) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.995062] (ps_ros2_common) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.996751] (ps_ros2_common) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.009871] (ps_ros2_common) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.013764] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.015985] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.019272] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.021335] (-) TimerEvent: {}
+[3.037919] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.121587] (-) TimerEvent: {}
+[3.222616] (-) TimerEvent: {}
+[3.323561] (-) TimerEvent: {}
+[3.424571] (-) TimerEvent: {}
+[3.497717] (ps_ros2_common) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.525194] (-) TimerEvent: {}
+[3.541956] (ps_ros2_common) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.544901] (ps_ros2_common) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.548403] (ps_ros2_common) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.571235] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.601734] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.602885] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.604829] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.613342] (ps_ros2_common) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.625333] (-) TimerEvent: {}
+[3.640405] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.725547] (-) TimerEvent: {}
+[3.826630] (-) TimerEvent: {}
+[3.928360] (-) TimerEvent: {}
+[4.030353] (-) TimerEvent: {}
+[4.131343] (-) TimerEvent: {}
+[4.235351] (-) TimerEvent: {}
+[4.237021] (controller_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[4.335731] (-) TimerEvent: {}
+[4.474611] (-) TimerEvent: {}
+[4.576361] (-) TimerEvent: {}
+[4.677644] (-) TimerEvent: {}
+[4.738518] (cugo_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/shelfer/my_ros2_ws/build/cugo_controller/build', '--no-deps', 'install_data'], 'cwd': '/home/shelfer/my_ros2_ws/build/cugo_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shelfer', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib:/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib:/home/shelfer/my_ros2_ws/install/controller_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/shelfer', 'OLDPWD': '/home/shelfer', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1306', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shelfer/my_ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'shelfer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shelfer', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/shelfer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shelfer-desktop:@/tmp/.ICE-unix/1282,unix/shelfer-desktop:/tmp/.ICE-unix/1282', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4c9a295b_b90f_4372_94b3_b17ce45f30f0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SDYJ01', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/cugo_controller:/home/shelfer/my_ros2_ws/install/controller_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shelfer/my_ros2_ws/build/cugo_controller', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shelfer/my_ros2_ws/build/cugo_controller/prefix_override:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/build/test_imu:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/build/cugo_controller:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/controller_interfaces'}, 'shell': False}
+[4.780346] (-) TimerEvent: {}
+[4.881729] (-) TimerEvent: {}
+[4.886533] (controller_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.982151] (-) TimerEvent: {}
+[5.083763] (-) TimerEvent: {}
+[5.103110] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[5.184014] (-) TimerEvent: {}
+[5.207605] (ps_ros2_common) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[5.284214] (-) TimerEvent: {}
+[5.385605] (-) TimerEvent: {}
+[5.486981] (-) TimerEvent: {}
+[5.493858] (controller_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.512056] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.553667] (controller_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.587210] (-) TimerEvent: {}
+[5.621509] (ps_ros2_common) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.662615] (controller_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.687401] (-) TimerEvent: {}
+[5.788254] (-) TimerEvent: {}
+[5.889149] (-) TimerEvent: {}
+[5.937153] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.989418] (-) TimerEvent: {}
+[6.034440] (ps_ros2_common) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.089546] (-) TimerEvent: {}
+[6.190363] (-) TimerEvent: {}
+[6.198898] (controller_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.290559] (-) TimerEvent: {}
+[6.391523] (-) TimerEvent: {}
+[6.492468] (-) TimerEvent: {}
+[6.541523] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.543469] (cugo_controller) StdoutLine: {'line': b'running develop\n'}
+[6.584842] (ps_ros2_common) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.592663] (-) TimerEvent: {}
+[6.610074] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.666698] (ps_ros2_common) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.692876] (-) TimerEvent: {}
+[6.700246] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.753450] (ps_ros2_common) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.793203] (-) TimerEvent: {}
+[6.821639] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.869851] (ps_ros2_common) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.893424] (-) TimerEvent: {}
+[6.994342] (-) TimerEvent: {}
+[6.999364] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.042474] (ps_ros2_common) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.094569] (-) TimerEvent: {}
+[7.195392] (-) TimerEvent: {}
+[7.296325] (-) TimerEvent: {}
+[7.397337] (-) TimerEvent: {}
+[7.498401] (-) TimerEvent: {}
+[7.552038] (ps_ros2_common) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.562300] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.594056] (ps_ros2_common) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.598030] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.598710] (-) TimerEvent: {}
+[7.699860] (-) TimerEvent: {}
+[7.800993] (-) TimerEvent: {}
+[7.901953] (-) TimerEvent: {}
+[8.002968] (-) TimerEvent: {}
+[8.045706] (cugo_controller) StdoutLine: {'line': b'running egg_info\n'}
+[8.046407] (cugo_controller) StdoutLine: {'line': b'creating cugo_controller.egg-info\n'}
+[8.049828] (cugo_controller) StdoutLine: {'line': b'writing cugo_controller.egg-info/PKG-INFO\n'}
+[8.051052] (cugo_controller) StdoutLine: {'line': b'writing dependency_links to cugo_controller.egg-info/dependency_links.txt\n'}
+[8.052030] (cugo_controller) StdoutLine: {'line': b'writing entry points to cugo_controller.egg-info/entry_points.txt\n'}
+[8.052803] (cugo_controller) StdoutLine: {'line': b'writing requirements to cugo_controller.egg-info/requires.txt\n'}
+[8.053390] (cugo_controller) StdoutLine: {'line': b'writing top-level names to cugo_controller.egg-info/top_level.txt\n'}
+[8.055296] (cugo_controller) StdoutLine: {'line': b"writing manifest file 'cugo_controller.egg-info/SOURCES.txt'\n"}
+[8.065430] (cugo_controller) StdoutLine: {'line': b"reading manifest file 'cugo_controller.egg-info/SOURCES.txt'\n"}
+[8.068392] (cugo_controller) StdoutLine: {'line': b"writing manifest file 'cugo_controller.egg-info/SOURCES.txt'\n"}
+[8.074893] (cugo_controller) StdoutLine: {'line': b'running build_ext\n'}
+[8.076803] (cugo_controller) StdoutLine: {'line': b'Creating /home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages/cugo-controller.egg-link (link to .)\n'}
+[8.084082] (cugo_controller) StdoutLine: {'line': b'Installing cugo_controller script to /home/shelfer/my_ros2_ws/install/cugo_controller/lib/cugo_controller\n'}
+[8.085873] (cugo_controller) StdoutLine: {'line': b'Installing ps4_publisher script to /home/shelfer/my_ros2_ws/install/cugo_controller/lib/cugo_controller\n'}
+[8.087246] (cugo_controller) StdoutLine: {'line': b'Installing ultrasonic_client script to /home/shelfer/my_ros2_ws/install/cugo_controller/lib/cugo_controller\n'}
+[8.089578] (cugo_controller) StdoutLine: {'line': b'\n'}
+[8.091279] (cugo_controller) StdoutLine: {'line': b'Installed /home/shelfer/my_ros2_ws/build/cugo_controller\n'}
+[8.092879] (cugo_controller) StdoutLine: {'line': b'running install_data\n'}
+[8.093569] (cugo_controller) StdoutLine: {'line': b'creating /home/shelfer/my_ros2_ws/install/cugo_controller/share/ament_index\n'}
+[8.094194] (cugo_controller) StdoutLine: {'line': b'creating /home/shelfer/my_ros2_ws/install/cugo_controller/share/ament_index/resource_index\n'}
+[8.094811] (cugo_controller) StdoutLine: {'line': b'creating /home/shelfer/my_ros2_ws/install/cugo_controller/share/ament_index/resource_index/packages\n'}
+[8.096115] (cugo_controller) StdoutLine: {'line': b'copying resource/cugo_controller -> /home/shelfer/my_ros2_ws/install/cugo_controller/share/ament_index/resource_index/packages\n'}
+[8.097179] (cugo_controller) StdoutLine: {'line': b'copying package.xml -> /home/shelfer/my_ros2_ws/install/cugo_controller/share/cugo_controller\n'}
+[8.103301] (-) TimerEvent: {}
+[8.163647] (controller_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[8.203632] (-) TimerEvent: {}
+[8.308680] (cugo_controller) CommandEnded: {'returncode': 0}
+[8.310714] (-) TimerEvent: {}
+[8.412798] (-) TimerEvent: {}
+[8.434004] (cugo_controller) JobEnded: {'identifier': 'cugo_controller', 'rc': 0}
+[8.437379] (test_imu) JobStarted: {'identifier': 'test_imu'}
+[8.532687] (-) TimerEvent: {}
+[8.534164] (ps_ros2_common) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.535178] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.632855] (-) TimerEvent: {}
+[8.733709] (-) TimerEvent: {}
+[8.834694] (-) TimerEvent: {}
+[8.865711] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.898798] (ps_ros2_common) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.935094] (-) TimerEvent: {}
+[9.036226] (-) TimerEvent: {}
+[9.137130] (-) TimerEvent: {}
+[9.238095] (-) TimerEvent: {}
+[9.339007] (-) TimerEvent: {}
+[9.372174] (controller_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.436905] (rt_usb_9axisimu_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.439284] (-) TimerEvent: {}
+[9.476497] (ps_ros2_common) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.539492] (-) TimerEvent: {}
+[9.606045] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.606693] (ps_ros2_common) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.639806] (-) TimerEvent: {}
+[9.741481] (-) TimerEvent: {}
+[9.843261] (-) TimerEvent: {}
+[9.944370] (-) TimerEvent: {}
+[10.045394] (-) TimerEvent: {}
+[10.106831] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.109655] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.112771] (ps_ros2_common) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.116859] (ps_ros2_common) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.145615] (-) TimerEvent: {}
+[10.247212] (-) TimerEvent: {}
+[10.348719] (-) TimerEvent: {}
+[10.450477] (-) TimerEvent: {}
+[10.552097] (-) TimerEvent: {}
+[10.589763] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.599846] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.610770] (ps_ros2_common) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.617730] (ps_ros2_common) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.652623] (-) TimerEvent: {}
+[10.759977] (-) TimerEvent: {}
+[10.861716] (-) TimerEvent: {}
+[10.963267] (-) TimerEvent: {}
+[11.065005] (-) TimerEvent: {}
+[11.083250] (controller_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.165235] (-) TimerEvent: {}
+[11.256904] (controller_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[11.265498] (-) TimerEvent: {}
+[11.291761] (controller_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[11.365730] (-) TimerEvent: {}
+[11.467124] (-) TimerEvent: {}
+[11.501175] (controller_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[11.503629] (controller_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.504387] (controller_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[11.505192] (controller_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[11.567356] (-) TimerEvent: {}
+[11.637061] (controller_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[11.646827] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.3 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[11.649513] (ps_ros2_common) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[11.667627] (-) TimerEvent: {}
+[11.768632] (-) TimerEvent: {}
+[11.869541] (-) TimerEvent: {}
+[11.884265] (controller_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[11.969752] (-) TimerEvent: {}
+[12.070978] (-) TimerEvent: {}
+[12.172296] (-) TimerEvent: {}
+[12.175367] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.3 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[12.234280] (controller_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.251206] (controller_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.272492] (-) TimerEvent: {}
+[12.285168] (controller_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.314448] (ps_ros2_common) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.3 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[12.372766] (-) TimerEvent: {}
+[12.473691] (-) TimerEvent: {}
+[12.497601] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[12.530283] (controller_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[12.548407] (controller_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/shelfer/my_ros2_ws/build/controller_interfaces\n'}
+[12.573951] (-) TimerEvent: {}
+[12.579201] (controller_interfaces) CommandEnded: {'returncode': 0}
+[12.585010] (controller_interfaces) JobProgress: {'identifier': 'controller_interfaces', 'progress': 'build'}
+[12.585390] (controller_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shelfer/my_ros2_ws/build/controller_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/shelfer/my_ros2_ws/build/controller_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shelfer'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib:/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib:/home/shelfer/my_ros2_ws/install/controller_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shelfer'), ('OLDPWD', '/home/shelfer'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shelfer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shelfer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shelfer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shelfer-desktop:@/tmp/.ICE-unix/1282,unix/shelfer-desktop:/tmp/.ICE-unix/1282'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4c9a295b_b90f_4372_94b3_b17ce45f30f0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SDYJ01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/cugo_controller:/home/shelfer/my_ros2_ws/install/controller_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shelfer/my_ros2_ws/build/controller_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shelfer/my_ros2_ws/build/test_imu:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/build/cugo_controller:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/controller_interfaces:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble')]), 'shell': False}
+[12.674326] (-) TimerEvent: {}
+[12.775310] (-) TimerEvent: {}
+[12.861261] (controller_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[12.862411] (ps_ros2_common) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.872763] (controller_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[12.875538] (-) TimerEvent: {}
+[12.976969] (-) TimerEvent: {}
+[13.078434] (-) TimerEvent: {}
+[13.112136] (controller_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_controller_interfaces\n'}
+[13.178608] (-) TimerEvent: {}
+[13.279616] (-) TimerEvent: {}
+[13.381719] (-) TimerEvent: {}
+[13.418352] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[13.481963] (-) TimerEvent: {}
+[13.583248] (-) TimerEvent: {}
+[13.634241] (test_imu) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/shelfer/my_ros2_ws/build/test_imu/build', '--no-deps', 'install_data'], 'cwd': '/home/shelfer/my_ros2_ws/build/test_imu', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shelfer', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib:/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib:/home/shelfer/my_ros2_ws/install/controller_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/shelfer', 'OLDPWD': '/home/shelfer', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1306', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shelfer/my_ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'shelfer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shelfer', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/shelfer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shelfer-desktop:@/tmp/.ICE-unix/1282,unix/shelfer-desktop:/tmp/.ICE-unix/1282', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4c9a295b_b90f_4372_94b3_b17ce45f30f0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SDYJ01', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/cugo_controller:/home/shelfer/my_ros2_ws/install/controller_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shelfer/my_ros2_ws/build/test_imu', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shelfer/my_ros2_ws/build/test_imu/prefix_override:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/build/test_imu:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/build/cugo_controller:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/controller_interfaces'}, 'shell': False}
+[13.683466] (-) TimerEvent: {}
+[13.784632] (-) TimerEvent: {}
+[13.885723] (-) TimerEvent: {}
+[13.987589] (-) TimerEvent: {}
+[14.088631] (-) TimerEvent: {}
+[14.142293] (ps_ros2_common) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[14.188825] (-) TimerEvent: {}
+[14.277254] (ps_ros2_common) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.289044] (-) TimerEvent: {}
+[14.302565] (ps_ros2_common) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/shelfer/my_ros2_ws/src/ps_ros2_common/include/ps_ros2_common;$<BUILD_INTERFACE:/home/shelfer/my_ros2_ws/src/ps_ros2_common/include>\n'}
+[14.303214] (ps_ros2_common) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.333969] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.389263] (-) TimerEvent: {}
+[14.404764] (ps_ros2_common) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[14.405443] (ps_ros2_common) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[14.440987] (ps_ros2_common) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.473285] (ps_ros2_common) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.482252] (ps_ros2_common) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[14.489471] (-) TimerEvent: {}
+[14.563286] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[14.564410] (ps_ros2_common) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.565038] (ps_ros2_common) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.572683] (ps_ros2_common) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.584972] (ps_ros2_common) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.589653] (-) TimerEvent: {}
+[14.593137] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver\n'}
+[14.689930] (-) TimerEvent: {}
+[14.709921] (ps_ros2_common) StdoutLine: {'line': b'-- Generating done\n'}
+[14.728752] (rt_usb_9axisimu_driver) CommandEnded: {'returncode': 0}
+[14.731040] (rt_usb_9axisimu_driver) JobProgress: {'identifier': 'rt_usb_9axisimu_driver', 'progress': 'build'}
+[14.746819] (rt_usb_9axisimu_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver', '--', '-j4', '-l4'], 'cwd': '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shelfer'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib:/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib:/home/shelfer/my_ros2_ws/install/controller_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shelfer'), ('OLDPWD', '/home/shelfer'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shelfer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shelfer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shelfer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shelfer-desktop:@/tmp/.ICE-unix/1282,unix/shelfer-desktop:/tmp/.ICE-unix/1282'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4c9a295b_b90f_4372_94b3_b17ce45f30f0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SDYJ01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/cugo_controller:/home/shelfer/my_ros2_ws/install/controller_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shelfer/my_ros2_ws/build/test_imu:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/build/cugo_controller:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/controller_interfaces:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble')]), 'shell': False}
+[14.749963] (ps_ros2_common) StdoutLine: {'line': b'-- Build files have been written to: /home/shelfer/my_ros2_ws/build/ps_ros2_common\n'}
+[14.790306] (-) TimerEvent: {}
+[14.795335] (ps_ros2_common) CommandEnded: {'returncode': 0}
+[14.813949] (ps_ros2_common) JobProgress: {'identifier': 'ps_ros2_common', 'progress': 'build'}
+[14.814462] (ps_ros2_common) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shelfer/my_ros2_ws/build/ps_ros2_common', '--', '-j4', '-l4'], 'cwd': '/home/shelfer/my_ros2_ws/build/ps_ros2_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shelfer'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib:/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib:/home/shelfer/my_ros2_ws/install/controller_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shelfer'), ('OLDPWD', '/home/shelfer'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shelfer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shelfer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shelfer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shelfer-desktop:@/tmp/.ICE-unix/1282,unix/shelfer-desktop:/tmp/.ICE-unix/1282'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4c9a295b_b90f_4372_94b3_b17ce45f30f0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SDYJ01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/cugo_controller:/home/shelfer/my_ros2_ws/install/controller_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shelfer/my_ros2_ws/build/ps_ros2_common'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shelfer/my_ros2_ws/build/test_imu:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/build/cugo_controller:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/controller_interfaces:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble')]), 'shell': False}
+[14.890495] (-) TimerEvent: {}
+[14.991431] (-) TimerEvent: {}
+[15.092356] (-) TimerEvent: {}
+[15.193207] (-) TimerEvent: {}
+[15.294415] (-) TimerEvent: {}
+[15.361667] (ps_ros2_common) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/joy_test.dir/src/example_joy.cpp.o\x1b[0m\n'}
+[15.380404] (ps_ros2_common) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ps_ros2_common.dir/src/example_joy.cpp.o\x1b[0m\n'}
+[15.381593] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rt_usb_9axisimu_driver_component.dir/src/rt_usb_9axisimu_driver.cpp.o\x1b[0m\n'}
+[15.393519] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/rt_usb_9axisimu_driver_component.dir/src/rt_usb_9axisimu_driver_component.cpp.o\x1b[0m\n'}
+[15.394493] (-) TimerEvent: {}
+[15.496539] (-) TimerEvent: {}
+[15.598313] (-) TimerEvent: {}
+[15.699670] (-) TimerEvent: {}
+[15.784942] (controller_interfaces) StdoutLine: {'line': b'[  5%] Built target controller_interfaces__cpp\n'}
+[15.799933] (-) TimerEvent: {}
+[15.882795] (controller_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.900121] (-) TimerEvent: {}
+[15.932769] (controller_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[16.000300] (-) TimerEvent: {}
+[16.101498] (-) TimerEvent: {}
+[16.202658] (-) TimerEvent: {}
+[16.304077] (-) TimerEvent: {}
+[16.405318] (-) TimerEvent: {}
+[16.506576] (-) TimerEvent: {}
+[16.607636] (-) TimerEvent: {}
+[16.708909] (-) TimerEvent: {}
+[16.807592] (controller_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/controller_interfaces__rosidl_generator_c.dir/rosidl_generator_c/controller_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[16.809145] (-) TimerEvent: {}
+[16.910650] (-) TimerEvent: {}
+[16.963324] (controller_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[16.986310] (controller_interfaces) StdoutLine: {'line': b'creating controller_interfaces.egg-info\n'}
+[16.988501] (controller_interfaces) StdoutLine: {'line': b'writing controller_interfaces.egg-info/PKG-INFO\n'}
+[16.990841] (controller_interfaces) StdoutLine: {'line': b'writing dependency_links to controller_interfaces.egg-info/dependency_links.txt\n'}
+[16.993117] (controller_interfaces) StdoutLine: {'line': b'writing top-level names to controller_interfaces.egg-info/top_level.txt\n'}
+[16.995660] (controller_interfaces) StdoutLine: {'line': b"writing manifest file 'controller_interfaces.egg-info/SOURCES.txt'\n"}
+[17.010865] (-) TimerEvent: {}
+[17.049884] (controller_interfaces) StdoutLine: {'line': b"reading manifest file 'controller_interfaces.egg-info/SOURCES.txt'\n"}
+[17.060066] (controller_interfaces) StdoutLine: {'line': b"writing manifest file 'controller_interfaces.egg-info/SOURCES.txt'\n"}
+[17.111208] (-) TimerEvent: {}
+[17.213734] (-) TimerEvent: {}
+[17.308113] (test_imu) StdoutLine: {'line': b'running develop\n'}
+[17.313988] (-) TimerEvent: {}
+[17.415341] (-) TimerEvent: {}
+[17.516933] (-) TimerEvent: {}
+[17.518332] (controller_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_controller_interfaces_egg\n'}
+[17.540982] (controller_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/controller_interfaces__rosidl_generator_c.dir/rosidl_generator_c/controller_interfaces/srv/detail/ultra__functions.c.o\x1b[0m\n'}
+[17.600487] (controller_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[17.617172] (-) TimerEvent: {}
+[17.718383] (-) TimerEvent: {}
+[17.819860] (-) TimerEvent: {}
+[17.921318] (-) TimerEvent: {}
+[18.022407] (-) TimerEvent: {}
+[18.123513] (-) TimerEvent: {}
+[18.146099] (controller_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libcontroller_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[18.223765] (-) TimerEvent: {}
+[18.324839] (-) TimerEvent: {}
+[18.426269] (-) TimerEvent: {}
+[18.429757] (controller_interfaces) StdoutLine: {'line': b'[ 20%] Built target controller_interfaces__rosidl_generator_c\n'}
+[18.526476] (-) TimerEvent: {}
+[18.554050] (controller_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[18.626682] (-) TimerEvent: {}
+[18.727778] (-) TimerEvent: {}
+[18.828669] (-) TimerEvent: {}
+[18.929485] (-) TimerEvent: {}
+[19.024130] (controller_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[19.029695] (-) TimerEvent: {}
+[19.131188] (-) TimerEvent: {}
+[19.232683] (-) TimerEvent: {}
+[19.333603] (-) TimerEvent: {}
+[19.434640] (-) TimerEvent: {}
+[19.535848] (-) TimerEvent: {}
+[19.637020] (-) TimerEvent: {}
+[19.690827] (controller_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[19.737365] (-) TimerEvent: {}
+[19.838867] (-) TimerEvent: {}
+[19.939798] (-) TimerEvent: {}
+[20.040778] (-) TimerEvent: {}
+[20.141909] (-) TimerEvent: {}
+[20.242946] (-) TimerEvent: {}
+[20.344029] (-) TimerEvent: {}
+[20.445254] (-) TimerEvent: {}
+[20.546812] (-) TimerEvent: {}
+[20.648537] (-) TimerEvent: {}
+[20.749897] (-) TimerEvent: {}
+[20.851131] (-) TimerEvent: {}
+[20.952244] (-) TimerEvent: {}
+[20.995636] (controller_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[21.052486] (-) TimerEvent: {}
+[21.153599] (-) TimerEvent: {}
+[21.255005] (-) TimerEvent: {}
+[21.271006] (test_imu) StdoutLine: {'line': b'running egg_info\n'}
+[21.272796] (test_imu) StdoutLine: {'line': b'creating test_imu.egg-info\n'}
+[21.275567] (test_imu) StdoutLine: {'line': b'writing test_imu.egg-info/PKG-INFO\n'}
+[21.279331] (test_imu) StdoutLine: {'line': b'writing dependency_links to test_imu.egg-info/dependency_links.txt\n'}
+[21.291561] (test_imu) StdoutLine: {'line': b'writing entry points to test_imu.egg-info/entry_points.txt\n'}
+[21.295789] (test_imu) StdoutLine: {'line': b'writing requirements to test_imu.egg-info/requires.txt\n'}
+[21.298166] (test_imu) StdoutLine: {'line': b'writing top-level names to test_imu.egg-info/top_level.txt\n'}
+[21.301049] (test_imu) StdoutLine: {'line': b"writing manifest file 'test_imu.egg-info/SOURCES.txt'\n"}
+[21.313101] (test_imu) StdoutLine: {'line': b"reading manifest file 'test_imu.egg-info/SOURCES.txt'\n"}
+[21.317078] (test_imu) StdoutLine: {'line': b"writing manifest file 'test_imu.egg-info/SOURCES.txt'\n"}
+[21.327310] (test_imu) StdoutLine: {'line': b'running build_ext\n'}
+[21.329988] (test_imu) StdoutLine: {'line': b'Creating /home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages/test-imu.egg-link (link to .)\n'}
+[21.338510] (test_imu) StdoutLine: {'line': b'Installing temperature_subscriber script to /home/shelfer/my_ros2_ws/install/test_imu/lib/test_imu\n'}
+[21.342555] (test_imu) StdoutLine: {'line': b'\n'}
+[21.344126] (test_imu) StdoutLine: {'line': b'Installed /home/shelfer/my_ros2_ws/build/test_imu\n'}
+[21.345999] (test_imu) StdoutLine: {'line': b'running install_data\n'}
+[21.347974] (test_imu) StdoutLine: {'line': b'creating /home/shelfer/my_ros2_ws/install/test_imu/share/ament_index\n'}
+[21.349564] (test_imu) StdoutLine: {'line': b'creating /home/shelfer/my_ros2_ws/install/test_imu/share/ament_index/resource_index\n'}
+[21.350996] (test_imu) StdoutLine: {'line': b'creating /home/shelfer/my_ros2_ws/install/test_imu/share/ament_index/resource_index/packages\n'}
+[21.353205] (test_imu) StdoutLine: {'line': b'copying resource/test_imu -> /home/shelfer/my_ros2_ws/install/test_imu/share/ament_index/resource_index/packages\n'}
+[21.355193] (-) TimerEvent: {}
+[21.358338] (test_imu) StdoutLine: {'line': b'copying package.xml -> /home/shelfer/my_ros2_ws/install/test_imu/share/test_imu\n'}
+[21.455471] (-) TimerEvent: {}
+[21.557584] (-) TimerEvent: {}
+[21.659025] (-) TimerEvent: {}
+[21.763599] (test_imu) CommandEnded: {'returncode': 0}
+[21.766284] (-) TimerEvent: {}
+[21.883271] (-) TimerEvent: {}
+[21.988212] (-) TimerEvent: {}
+[22.059734] (test_imu) JobEnded: {'identifier': 'test_imu', 'rc': 0}
+[22.088620] (-) TimerEvent: {}
+[22.190377] (-) TimerEvent: {}
+[22.291631] (-) TimerEvent: {}
+[22.393004] (-) TimerEvent: {}
+[22.494522] (-) TimerEvent: {}
+[22.595978] (-) TimerEvent: {}
+[22.697240] (-) TimerEvent: {}
+[22.798338] (-) TimerEvent: {}
+[22.899499] (-) TimerEvent: {}
+[23.000612] (-) TimerEvent: {}
+[23.101852] (-) TimerEvent: {}
+[23.203318] (-) TimerEvent: {}
+[23.304955] (-) TimerEvent: {}
+[23.407236] (-) TimerEvent: {}
+[23.508723] (-) TimerEvent: {}
+[23.610031] (-) TimerEvent: {}
+[23.711510] (-) TimerEvent: {}
+[23.812996] (-) TimerEvent: {}
+[23.914730] (-) TimerEvent: {}
+[24.016150] (-) TimerEvent: {}
+[24.117494] (-) TimerEvent: {}
+[24.170093] (controller_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[24.217851] (-) TimerEvent: {}
+[24.319208] (-) TimerEvent: {}
+[24.421377] (-) TimerEvent: {}
+[24.523216] (-) TimerEvent: {}
+[24.591217] (controller_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp.o\x1b[0m\n'}
+[24.623510] (-) TimerEvent: {}
+[24.647876] (controller_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_interfaces/srv/detail/ultra__type_support.c.o\x1b[0m\n'}
+[24.723852] (-) TimerEvent: {}
+[24.825065] (-) TimerEvent: {}
+[24.926316] (-) TimerEvent: {}
+[25.027435] (-) TimerEvent: {}
+[25.128615] (-) TimerEvent: {}
+[25.191411] (controller_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libcontroller_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[25.228910] (-) TimerEvent: {}
+[25.231514] (controller_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_interfaces/srv/ultra__type_support.cpp.o\x1b[0m\n'}
+[25.329200] (-) TimerEvent: {}
+[25.430675] (-) TimerEvent: {}
+[25.531914] (-) TimerEvent: {}
+[25.559971] (controller_interfaces) StdoutLine: {'line': b'[ 43%] Built target controller_interfaces__rosidl_typesupport_introspection_c\n'}
+[25.632197] (-) TimerEvent: {}
+[25.645433] (controller_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[25.732525] (-) TimerEvent: {}
+[25.834147] (-) TimerEvent: {}
+[25.935300] (-) TimerEvent: {}
+[26.036413] (-) TimerEvent: {}
+[26.093210] (controller_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_interfaces/srv/detail/dds_fastrtps/ultra__type_support.cpp.o\x1b[0m\n'}
+[26.136699] (-) TimerEvent: {}
+[26.237993] (-) TimerEvent: {}
+[26.339430] (-) TimerEvent: {}
+[26.440884] (-) TimerEvent: {}
+[26.542270] (-) TimerEvent: {}
+[26.643407] (-) TimerEvent: {}
+[26.745177] (-) TimerEvent: {}
+[26.847557] (-) TimerEvent: {}
+[26.949184] (-) TimerEvent: {}
+[27.050878] (-) TimerEvent: {}
+[27.152976] (-) TimerEvent: {}
+[27.254737] (-) TimerEvent: {}
+[27.356667] (-) TimerEvent: {}
+[27.458355] (-) TimerEvent: {}
+[27.560081] (-) TimerEvent: {}
+[27.662001] (-) TimerEvent: {}
+[27.763183] (-) TimerEvent: {}
+[27.864479] (-) TimerEvent: {}
+[27.965766] (-) TimerEvent: {}
+[28.067840] (-) TimerEvent: {}
+[28.169586] (-) TimerEvent: {}
+[28.271522] (-) TimerEvent: {}
+[28.373269] (-) TimerEvent: {}
+[28.474946] (-) TimerEvent: {}
+[28.576540] (-) TimerEvent: {}
+[28.678449] (-) TimerEvent: {}
+[28.779947] (-) TimerEvent: {}
+[28.881233] (-) TimerEvent: {}
+[28.983316] (-) TimerEvent: {}
+[29.084785] (-) TimerEvent: {}
+[29.161889] (controller_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libcontroller_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[29.185176] (-) TimerEvent: {}
+[29.287152] (-) TimerEvent: {}
+[29.389309] (-) TimerEvent: {}
+[29.491105] (-) TimerEvent: {}
+[29.592599] (-) TimerEvent: {}
+[29.694076] (-) TimerEvent: {}
+[29.795428] (-) TimerEvent: {}
+[29.828161] (controller_interfaces) StdoutLine: {'line': b'[ 51%] Built target controller_interfaces__rosidl_typesupport_cpp\n'}
+[29.867842] (controller_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[29.895832] (-) TimerEvent: {}
+[29.992261] (controller_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[29.994594] (controller_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[29.995985] (-) TimerEvent: {}
+[30.097238] (-) TimerEvent: {}
+[30.198481] (-) TimerEvent: {}
+[30.299868] (-) TimerEvent: {}
+[30.367459] (controller_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_interfaces/srv/ultra__type_support.cpp.o\x1b[0m\n'}
+[30.400100] (-) TimerEvent: {}
+[30.501499] (-) TimerEvent: {}
+[30.566393] (controller_interfaces) StdoutLine: {'line': b'[ 61%] Built target controller_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[30.601784] (-) TimerEvent: {}
+[30.703246] (-) TimerEvent: {}
+[30.765185] (controller_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcontroller_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[30.803513] (-) TimerEvent: {}
+[30.904619] (-) TimerEvent: {}
+[31.005801] (-) TimerEvent: {}
+[31.106976] (-) TimerEvent: {}
+[31.207996] (-) TimerEvent: {}
+[31.308908] (-) TimerEvent: {}
+[31.312867] (controller_interfaces) StdoutLine: {'line': b'[ 64%] Built target controller_interfaces__rosidl_typesupport_c\n'}
+[31.409182] (-) TimerEvent: {}
+[31.510462] (-) TimerEvent: {}
+[31.611521] (-) TimerEvent: {}
+[31.713123] (-) TimerEvent: {}
+[31.814751] (-) TimerEvent: {}
+[31.916586] (-) TimerEvent: {}
+[32.018179] (-) TimerEvent: {}
+[32.120035] (-) TimerEvent: {}
+[32.221115] (-) TimerEvent: {}
+[32.223542] (controller_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libcontroller_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[32.321382] (-) TimerEvent: {}
+[32.423463] (-) TimerEvent: {}
+[32.524711] (-) TimerEvent: {}
+[32.626734] (-) TimerEvent: {}
+[32.729354] (-) TimerEvent: {}
+[32.796053] (controller_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[32.829631] (-) TimerEvent: {}
+[32.878733] (controller_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_interfaces/srv/detail/ultra__type_support_c.cpp.o\x1b[0m\n'}
+[32.929890] (-) TimerEvent: {}
+[33.031269] (-) TimerEvent: {}
+[33.046494] (controller_interfaces) StdoutLine: {'line': b'[ 71%] Built target controller_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[33.131536] (-) TimerEvent: {}
+[33.233115] (-) TimerEvent: {}
+[33.334159] (-) TimerEvent: {}
+[33.435804] (-) TimerEvent: {}
+[33.537147] (-) TimerEvent: {}
+[33.638523] (-) TimerEvent: {}
+[33.739810] (-) TimerEvent: {}
+[33.841074] (-) TimerEvent: {}
+[33.942509] (-) TimerEvent: {}
+[34.043952] (-) TimerEvent: {}
+[34.145207] (-) TimerEvent: {}
+[34.246677] (-) TimerEvent: {}
+[34.347967] (-) TimerEvent: {}
+[34.449317] (-) TimerEvent: {}
+[34.550588] (-) TimerEvent: {}
+[34.666219] (-) TimerEvent: {}
+[34.767497] (-) TimerEvent: {}
+[34.868871] (-) TimerEvent: {}
+[34.970177] (-) TimerEvent: {}
+[35.071558] (-) TimerEvent: {}
+[35.173080] (-) TimerEvent: {}
+[35.274475] (-) TimerEvent: {}
+[35.375548] (-) TimerEvent: {}
+[35.477132] (-) TimerEvent: {}
+[35.578314] (-) TimerEvent: {}
+[35.679777] (-) TimerEvent: {}
+[35.780910] (-) TimerEvent: {}
+[35.882015] (-) TimerEvent: {}
+[35.926358] (controller_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcontroller_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[35.982305] (-) TimerEvent: {}
+[36.083538] (-) TimerEvent: {}
+[36.184742] (-) TimerEvent: {}
+[36.285892] (-) TimerEvent: {}
+[36.387096] (-) TimerEvent: {}
+[36.394225] (controller_interfaces) StdoutLine: {'line': b'[ 74%] Built target controller_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[36.487408] (-) TimerEvent: {}
+[36.510683] (controller_interfaces) StdoutLine: {'line': b'[ 74%] Built target controller_interfaces\n'}
+[36.587657] (-) TimerEvent: {}
+[36.630732] (controller_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[36.687933] (-) TimerEvent: {}
+[36.788958] (-) TimerEvent: {}
+[36.890191] (-) TimerEvent: {}
+[36.991868] (-) TimerEvent: {}
+[37.093008] (-) TimerEvent: {}
+[37.194438] (-) TimerEvent: {}
+[37.295719] (-) TimerEvent: {}
+[37.396839] (-) TimerEvent: {}
+[37.498018] (-) TimerEvent: {}
+[37.599149] (-) TimerEvent: {}
+[37.700233] (-) TimerEvent: {}
+[37.801412] (-) TimerEvent: {}
+[37.902471] (-) TimerEvent: {}
+[38.003499] (-) TimerEvent: {}
+[38.104590] (-) TimerEvent: {}
+[38.205805] (-) TimerEvent: {}
+[38.306994] (-) TimerEvent: {}
+[38.408100] (-) TimerEvent: {}
+[38.509182] (-) TimerEvent: {}
+[38.610395] (-) TimerEvent: {}
+[38.711523] (-) TimerEvent: {}
+[38.812595] (-) TimerEvent: {}
+[38.913613] (-) TimerEvent: {}
+[39.014679] (-) TimerEvent: {}
+[39.115666] (-) TimerEvent: {}
+[39.216805] (-) TimerEvent: {}
+[39.318175] (-) TimerEvent: {}
+[39.419457] (-) TimerEvent: {}
+[39.520917] (-) TimerEvent: {}
+[39.622680] (-) TimerEvent: {}
+[39.738920] (-) TimerEvent: {}
+[39.840011] (-) TimerEvent: {}
+[39.941197] (-) TimerEvent: {}
+[39.979037] (controller_interfaces) StdoutLine: {'line': b'[ 76%] Built target controller_interfaces__py\n'}
+[40.041530] (-) TimerEvent: {}
+[40.142975] (-) TimerEvent: {}
+[40.157314] (controller_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/controller_interfaces__rosidl_generator_py.dir/rosidl_generator_py/controller_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[40.158508] (controller_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/controller_interfaces__rosidl_generator_py.dir/rosidl_generator_py/controller_interfaces/srv/_ultra_s.c.o\x1b[0m\n'}
+[40.243346] (-) TimerEvent: {}
+[40.344588] (-) TimerEvent: {}
+[40.445735] (-) TimerEvent: {}
+[40.547471] (-) TimerEvent: {}
+[40.648995] (-) TimerEvent: {}
+[40.750543] (-) TimerEvent: {}
+[40.857814] (-) TimerEvent: {}
+[40.958960] (-) TimerEvent: {}
+[41.060241] (-) TimerEvent: {}
+[41.161449] (-) TimerEvent: {}
+[41.262684] (-) TimerEvent: {}
+[41.314877] (controller_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/controller_interfaces/libcontroller_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[41.362934] (-) TimerEvent: {}
+[41.464107] (-) TimerEvent: {}
+[41.565372] (-) TimerEvent: {}
+[41.573883] (controller_interfaces) StdoutLine: {'line': b'[ 84%] Built target controller_interfaces__rosidl_generator_py\n'}
+[41.665624] (-) TimerEvent: {}
+[41.766928] (-) TimerEvent: {}
+[41.796461] (controller_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[41.799008] (controller_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[41.833055] (controller_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/controller_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[41.867283] (-) TimerEvent: {}
+[41.968492] (-) TimerEvent: {}
+[42.069503] (-) TimerEvent: {}
+[42.170520] (-) TimerEvent: {}
+[42.271668] (-) TimerEvent: {}
+[42.372840] (-) TimerEvent: {}
+[42.473928] (-) TimerEvent: {}
+[42.575029] (-) TimerEvent: {}
+[42.652112] (controller_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/controller_interfaces/controller_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[42.675945] (-) TimerEvent: {}
+[42.694206] (controller_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/controller_interfaces/controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[42.775963] (-) TimerEvent: {}
+[42.877597] (-) TimerEvent: {}
+[42.912164] (controller_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/controller_interfaces/controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[42.978043] (-) TimerEvent: {}
+[43.006096] (controller_interfaces) StdoutLine: {'line': b'[100%] Built target controller_interfaces__rosidl_typesupport_c__pyext\n'}
+[43.068001] (controller_interfaces) StdoutLine: {'line': b'[100%] Built target controller_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[43.078351] (-) TimerEvent: {}
+[43.180406] (-) TimerEvent: {}
+[43.181669] (controller_interfaces) StdoutLine: {'line': b'[100%] Built target controller_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[43.249956] (controller_interfaces) CommandEnded: {'returncode': 0}
+[43.280658] (-) TimerEvent: {}
+[43.381907] (-) TimerEvent: {}
+[43.483029] (-) TimerEvent: {}
+[43.584036] (-) TimerEvent: {}
+[43.685587] (-) TimerEvent: {}
+[43.786645] (-) TimerEvent: {}
+[43.887577] (-) TimerEvent: {}
+[43.956447] (controller_interfaces) JobProgress: {'identifier': 'controller_interfaces', 'progress': 'install'}
+[43.987877] (-) TimerEvent: {}
+[44.008751] (controller_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shelfer/my_ros2_ws/build/controller_interfaces'], 'cwd': '/home/shelfer/my_ros2_ws/build/controller_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shelfer'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib:/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib:/home/shelfer/my_ros2_ws/install/controller_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shelfer'), ('OLDPWD', '/home/shelfer'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shelfer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shelfer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shelfer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shelfer-desktop:@/tmp/.ICE-unix/1282,unix/shelfer-desktop:/tmp/.ICE-unix/1282'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4c9a295b_b90f_4372_94b3_b17ce45f30f0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SDYJ01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/cugo_controller:/home/shelfer/my_ros2_ws/install/controller_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shelfer/my_ros2_ws/build/controller_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shelfer/my_ros2_ws/build/test_imu:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/build/cugo_controller:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/controller_interfaces:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble')]), 'shell': False}
+[44.054537] (controller_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.058590] (controller_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[44.062407] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/ament_index/resource_index/rosidl_interfaces/controller_interfaces\n'}
+[44.088116] (-) TimerEvent: {}
+[44.116840] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__functions.h\n'}
+[44.166886] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__struct.h\n'}
+[44.188385] (-) TimerEvent: {}
+[44.216427] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__type_support.h\n'}
+[44.268731] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/num.h\n'}
+[44.288744] (-) TimerEvent: {}
+[44.341009] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[44.389094] (-) TimerEvent: {}
+[44.390982] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__functions.h\n'}
+[44.438672] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__struct.h\n'}
+[44.485050] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__type_support.h\n'}
+[44.489371] (-) TimerEvent: {}
+[44.535555] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/ultra.h\n'}
+[44.585635] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/library_path.sh\n'}
+[44.589637] (-) TimerEvent: {}
+[44.657295] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/library_path.dsv\n'}
+[44.689998] (-) TimerEvent: {}
+[44.729995] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[44.779362] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[44.790238] (-) TimerEvent: {}
+[44.828236] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__rosidl_typesupport_fastrtps_c.h\n'}
+[44.877041] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[44.890577] (-) TimerEvent: {}
+[44.928372] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[44.978090] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__rosidl_typesupport_introspection_c.h\n'}
+[44.990835] (-) TimerEvent: {}
+[45.029024] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__builder.hpp\n'}
+[45.079650] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__struct.hpp\n'}
+[45.091107] (-) TimerEvent: {}
+[45.137364] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__traits.hpp\n'}
+[45.186563] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/num.hpp\n'}
+[45.191390] (-) TimerEvent: {}
+[45.248616] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__builder.hpp\n'}
+[45.291675] (-) TimerEvent: {}
+[45.299194] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__struct.hpp\n'}
+[45.358494] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__traits.hpp\n'}
+[45.392307] (-) TimerEvent: {}
+[45.407679] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/ultra.hpp\n'}
+[45.463581] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[45.492604] (-) TimerEvent: {}
+[45.514302] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[45.566476] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[45.592888] (-) TimerEvent: {}
+[45.618800] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[45.672053] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__rosidl_typesupport_introspection_cpp.hpp\n'}
+[45.693199] (-) TimerEvent: {}
+[45.722919] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/pythonpath.sh\n'}
+[45.773004] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/pythonpath.dsv\n'}
+[45.793473] (-) TimerEvent: {}
+[45.825596] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[45.875285] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[45.893736] (-) TimerEvent: {}
+[45.925225] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[45.974735] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[45.994006] (-) TimerEvent: {}
+[46.031880] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/__init__.py\n'}
+[46.080994] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[46.094297] (-) TimerEvent: {}
+[46.132412] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[46.181680] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[46.194607] (-) TimerEvent: {}
+[46.232457] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[46.283093] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[46.294883] (-) TimerEvent: {}
+[46.333663] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[46.383841] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/libcontroller_interfaces__rosidl_generator_py.so\n'}
+[46.395151] (-) TimerEvent: {}
+[46.435732] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/msg/__init__.py\n'}
+[46.484504] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/msg/_num.py\n'}
+[46.495424] (-) TimerEvent: {}
+[46.536554] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/msg/_num_s.c\n'}
+[46.584788] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/__init__.py\n'}
+[46.595769] (-) TimerEvent: {}
+[46.639870] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_ultra.py\n'}
+[46.685876] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_ultra_s.c\n'}
+[46.695981] (-) TimerEvent: {}
+[46.738644] (controller_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[46.743183] (controller_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[46.747255] (controller_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[46.750873] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/msg/Num.idl\n'}
+[46.796237] (-) TimerEvent: {}
+[46.800850] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/srv/Ultra.idl\n'}
+[46.851646] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/msg/Num.msg\n'}
+[46.896506] (-) TimerEvent: {}
+[46.902449] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/srv/Ultra.srv\n'}
+[46.953156] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/srv/Ultra_Request.msg\n'}
+[46.996770] (-) TimerEvent: {}
+[47.002586] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/srv/Ultra_Response.msg\n'}
+[47.052234] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/ament_index/resource_index/package_run_dependencies/controller_interfaces\n'}
+[47.097050] (-) TimerEvent: {}
+[47.102424] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/ament_index/resource_index/parent_prefix_path/controller_interfaces\n'}
+[47.154984] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/ament_prefix_path.sh\n'}
+[47.197335] (-) TimerEvent: {}
+[47.204311] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/ament_prefix_path.dsv\n'}
+[47.255432] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/path.sh\n'}
+[47.297614] (-) TimerEvent: {}
+[47.305784] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/path.dsv\n'}
+[47.357223] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/local_setup.bash\n'}
+[47.397901] (-) TimerEvent: {}
+[47.407621] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/local_setup.sh\n'}
+[47.457847] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/local_setup.zsh\n'}
+[47.498172] (-) TimerEvent: {}
+[47.508611] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/local_setup.dsv\n'}
+[47.561669] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/package.dsv\n'}
+[47.598526] (-) TimerEvent: {}
+[47.617917] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/ament_index/resource_index/packages/controller_interfaces\n'}
+[47.674653] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[47.698851] (-) TimerEvent: {}
+[47.724761] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[47.777795] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[47.799142] (-) TimerEvent: {}
+[47.829290] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[47.879424] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[47.899448] (-) TimerEvent: {}
+[47.930251] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[47.985587] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[48.000105] (-) TimerEvent: {}
+[48.048009] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfacesConfig.cmake\n'}
+[48.100403] (-) TimerEvent: {}
+[48.106572] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfacesConfig-version.cmake\n'}
+[48.157299] (controller_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/package.xml\n'}
+[48.200679] (-) TimerEvent: {}
+[48.209360] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_c.so\n'}
+[48.214708] (controller_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_c.so" to ""\n'}
+[48.217271] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[48.222676] (controller_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[48.225147] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[48.230631] (controller_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[48.233071] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_c.so\n'}
+[48.239153] (controller_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[48.242407] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[48.248595] (controller_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[48.251062] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[48.256545] (controller_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[48.258827] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_cpp.so\n'}
+[48.263877] (controller_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[48.300948] (-) TimerEvent: {}
+[48.402199] (-) TimerEvent: {}
+[48.503433] (-) TimerEvent: {}
+[48.550385] (controller_interfaces) StdoutLine: {'line': b"Listing '/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces'...\n"}
+[48.553187] (controller_interfaces) StdoutLine: {'line': b"Compiling '/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/__init__.py'...\n"}
+[48.554514] (controller_interfaces) StdoutLine: {'line': b"Listing '/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/msg'...\n"}
+[48.555339] (controller_interfaces) StdoutLine: {'line': b"Compiling '/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/msg/__init__.py'...\n"}
+[48.556229] (controller_interfaces) StdoutLine: {'line': b"Compiling '/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/msg/_num.py'...\n"}
+[48.557032] (controller_interfaces) StdoutLine: {'line': b"Listing '/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv'...\n"}
+[48.557840] (controller_interfaces) StdoutLine: {'line': b"Compiling '/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/__init__.py'...\n"}
+[48.558858] (controller_interfaces) StdoutLine: {'line': b"Compiling '/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_ultra.py'...\n"}
+[48.601128] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_py.so\n'}
+[48.603956] (-) TimerEvent: {}
+[48.608784] (controller_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_py.so" to ""\n'}
+[48.611194] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_cExport.cmake\n'}
+[48.615096] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[48.620570] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[48.624558] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[48.628677] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[48.640414] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[48.644696] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[48.648485] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[48.653443] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_cppExport.cmake\n'}
+[48.657331] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[48.661192] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[48.665561] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[48.669638] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[48.673544] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[48.677224] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[48.681033] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_pyExport.cmake\n'}
+[48.685438] (controller_interfaces) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[48.713138] (controller_interfaces) CommandEnded: {'returncode': 0}
+[48.715389] (-) TimerEvent: {}
+[48.817162] (-) TimerEvent: {}
+[48.918948] (-) TimerEvent: {}
+[49.020209] (-) TimerEvent: {}
+[49.121401] (-) TimerEvent: {}
+[49.222649] (-) TimerEvent: {}
+[49.323803] (-) TimerEvent: {}
+[49.428180] (-) TimerEvent: {}
+[49.529379] (-) TimerEvent: {}
+[49.633822] (-) TimerEvent: {}
+[49.736930] (controller_interfaces) JobEnded: {'identifier': 'controller_interfaces', 'rc': 0}
+[49.739461] (-) TimerEvent: {}
+[49.840729] (-) TimerEvent: {}
+[49.941725] (-) TimerEvent: {}
+[50.042651] (-) TimerEvent: {}
+[50.143632] (-) TimerEvent: {}
+[50.244747] (-) TimerEvent: {}
+[50.345957] (-) TimerEvent: {}
+[50.447084] (-) TimerEvent: {}
+[50.549696] (-) TimerEvent: {}
+[50.652719] (-) TimerEvent: {}
+[50.754023] (-) TimerEvent: {}
+[50.855358] (-) TimerEvent: {}
+[50.956788] (-) TimerEvent: {}
+[51.058409] (-) TimerEvent: {}
+[51.160037] (-) TimerEvent: {}
+[51.261573] (-) TimerEvent: {}
+[51.363012] (-) TimerEvent: {}
+[51.464560] (-) TimerEvent: {}
+[51.567363] (-) TimerEvent: {}
+[51.669192] (-) TimerEvent: {}
+[51.770748] (-) TimerEvent: {}
+[51.872383] (-) TimerEvent: {}
+[51.973936] (-) TimerEvent: {}
+[52.075488] (-) TimerEvent: {}
+[52.176915] (-) TimerEvent: {}
+[52.278344] (-) TimerEvent: {}
+[52.379808] (-) TimerEvent: {}
+[52.481342] (-) TimerEvent: {}
+[52.582911] (-) TimerEvent: {}
+[52.684186] (-) TimerEvent: {}
+[52.785786] (-) TimerEvent: {}
+[52.887541] (-) TimerEvent: {}
+[52.988855] (-) TimerEvent: {}
+[53.090143] (-) TimerEvent: {}
+[53.191434] (-) TimerEvent: {}
+[53.292814] (-) TimerEvent: {}
+[53.394029] (-) TimerEvent: {}
+[53.495134] (-) TimerEvent: {}
+[53.596514] (-) TimerEvent: {}
+[53.697995] (-) TimerEvent: {}
+[53.799752] (-) TimerEvent: {}
+[53.901538] (-) TimerEvent: {}
+[54.003445] (-) TimerEvent: {}
+[54.104719] (-) TimerEvent: {}
+[54.205917] (-) TimerEvent: {}
+[54.307125] (-) TimerEvent: {}
+[54.408457] (-) TimerEvent: {}
+[54.509669] (-) TimerEvent: {}
+[54.610970] (-) TimerEvent: {}
+[54.712052] (-) TimerEvent: {}
+[54.813266] (-) TimerEvent: {}
+[54.914265] (-) TimerEvent: {}
+[55.015300] (-) TimerEvent: {}
+[55.116292] (-) TimerEvent: {}
+[55.217325] (-) TimerEvent: {}
+[55.318441] (-) TimerEvent: {}
+[55.419587] (-) TimerEvent: {}
+[55.520682] (-) TimerEvent: {}
+[55.621862] (-) TimerEvent: {}
+[55.722861] (-) TimerEvent: {}
+[55.823867] (-) TimerEvent: {}
+[55.924797] (-) TimerEvent: {}
+[56.025790] (-) TimerEvent: {}
+[56.126706] (-) TimerEvent: {}
+[56.227631] (-) TimerEvent: {}
+[56.328565] (-) TimerEvent: {}
+[56.429457] (-) TimerEvent: {}
+[56.530401] (-) TimerEvent: {}
+[56.631507] (-) TimerEvent: {}
+[56.732499] (-) TimerEvent: {}
+[56.833484] (-) TimerEvent: {}
+[56.934490] (-) TimerEvent: {}
+[57.035477] (-) TimerEvent: {}
+[57.136425] (-) TimerEvent: {}
+[57.237441] (-) TimerEvent: {}
+[57.338400] (-) TimerEvent: {}
+[57.439337] (-) TimerEvent: {}
+[57.541350] (-) TimerEvent: {}
+[57.643253] (-) TimerEvent: {}
+[57.744732] (-) TimerEvent: {}
+[57.846873] (-) TimerEvent: {}
+[57.948637] (-) TimerEvent: {}
+[58.050320] (-) TimerEvent: {}
+[58.151493] (-) TimerEvent: {}
+[58.252726] (-) TimerEvent: {}
+[58.355071] (-) TimerEvent: {}
+[58.458761] (-) TimerEvent: {}
+[58.560701] (-) TimerEvent: {}
+[58.662945] (-) TimerEvent: {}
+[58.765580] (-) TimerEvent: {}
+[58.867397] (-) TimerEvent: {}
+[58.969266] (-) TimerEvent: {}
+[59.071129] (-) TimerEvent: {}
+[59.173464] (-) TimerEvent: {}
+[59.275528] (-) TimerEvent: {}
+[59.376970] (-) TimerEvent: {}
+[59.478465] (-) TimerEvent: {}
+[59.579750] (-) TimerEvent: {}
+[59.682666] (-) TimerEvent: {}
+[59.783818] (-) TimerEvent: {}
+[59.884794] (-) TimerEvent: {}
+[59.985819] (-) TimerEvent: {}
+[60.086841] (-) TimerEvent: {}
+[60.187920] (-) TimerEvent: {}
+[60.289360] (-) TimerEvent: {}
+[60.390398] (-) TimerEvent: {}
+[60.491399] (-) TimerEvent: {}
+[60.592589] (-) TimerEvent: {}
+[60.693715] (-) TimerEvent: {}
+[60.794771] (-) TimerEvent: {}
+[60.895774] (-) TimerEvent: {}
+[60.996691] (-) TimerEvent: {}
+[61.097694] (-) TimerEvent: {}
+[61.198745] (-) TimerEvent: {}
+[61.300533] (-) TimerEvent: {}
+[61.402158] (-) TimerEvent: {}
+[61.503049] (-) TimerEvent: {}
+[61.604071] (-) TimerEvent: {}
+[61.705091] (-) TimerEvent: {}
+[61.806115] (-) TimerEvent: {}
+[61.829383] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library librt_usb_9axisimu_driver_component.so\x1b[0m\n'}
+[61.906402] (-) TimerEvent: {}
+[62.007538] (-) TimerEvent: {}
+[62.109542] (-) TimerEvent: {}
+[62.211974] (-) TimerEvent: {}
+[62.313294] (-) TimerEvent: {}
+[62.416106] (-) TimerEvent: {}
+[62.517676] (-) TimerEvent: {}
+[62.619231] (-) TimerEvent: {}
+[62.720258] (-) TimerEvent: {}
+[62.821855] (-) TimerEvent: {}
+[62.923511] (-) TimerEvent: {}
+[63.025036] (-) TimerEvent: {}
+[63.126585] (-) TimerEvent: {}
+[63.227999] (-) TimerEvent: {}
+[63.329269] (-) TimerEvent: {}
+[63.430368] (-) TimerEvent: {}
+[63.532557] (-) TimerEvent: {}
+[63.634220] (-) TimerEvent: {}
+[63.736353] (-) TimerEvent: {}
+[63.837590] (-) TimerEvent: {}
+[63.845891] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'[ 60%] Built target rt_usb_9axisimu_driver_component\n'}
+[63.937850] (-) TimerEvent: {}
+[63.963520] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/rt_usb_9axisimu_driver.dir/src/rt_usb_9axisimu_driver_node.cpp.o\x1b[0m\n'}
+[64.038113] (-) TimerEvent: {}
+[64.139608] (-) TimerEvent: {}
+[64.241274] (-) TimerEvent: {}
+[64.342290] (-) TimerEvent: {}
+[64.443164] (-) TimerEvent: {}
+[64.544271] (-) TimerEvent: {}
+[64.645240] (-) TimerEvent: {}
+[64.746297] (-) TimerEvent: {}
+[64.847106] (-) TimerEvent: {}
+[65.214693] (-) TimerEvent: {}
+[65.315668] (-) TimerEvent: {}
+[65.416626] (-) TimerEvent: {}
+[65.518444] (-) TimerEvent: {}
+[65.619440] (-) TimerEvent: {}
+[65.720517] (-) TimerEvent: {}
+[65.821481] (-) TimerEvent: {}
+[65.922511] (-) TimerEvent: {}
+[66.023590] (-) TimerEvent: {}
+[66.125018] (-) TimerEvent: {}
+[66.226229] (-) TimerEvent: {}
+[66.327454] (-) TimerEvent: {}
+[66.428703] (-) TimerEvent: {}
+[66.532150] (-) TimerEvent: {}
+[66.633705] (-) TimerEvent: {}
+[66.735458] (-) TimerEvent: {}
+[66.836648] (-) TimerEvent: {}
+[66.937982] (-) TimerEvent: {}
+[67.039379] (-) TimerEvent: {}
+[67.140646] (-) TimerEvent: {}
+[67.241851] (-) TimerEvent: {}
+[67.343000] (-) TimerEvent: {}
+[67.444322] (-) TimerEvent: {}
+[67.545627] (-) TimerEvent: {}
+[67.646808] (-) TimerEvent: {}
+[67.748031] (-) TimerEvent: {}
+[67.849118] (-) TimerEvent: {}
+[67.950242] (-) TimerEvent: {}
+[68.051450] (-) TimerEvent: {}
+[68.153006] (-) TimerEvent: {}
+[68.254222] (-) TimerEvent: {}
+[68.355430] (-) TimerEvent: {}
+[68.456760] (-) TimerEvent: {}
+[68.558190] (-) TimerEvent: {}
+[68.659465] (-) TimerEvent: {}
+[68.760858] (-) TimerEvent: {}
+[68.862139] (-) TimerEvent: {}
+[68.963583] (-) TimerEvent: {}
+[69.064992] (-) TimerEvent: {}
+[69.166406] (-) TimerEvent: {}
+[69.267596] (-) TimerEvent: {}
+[69.368803] (-) TimerEvent: {}
+[69.470047] (-) TimerEvent: {}
+[69.571238] (-) TimerEvent: {}
+[69.672475] (-) TimerEvent: {}
+[69.773915] (-) TimerEvent: {}
+[69.875139] (-) TimerEvent: {}
+[69.976389] (-) TimerEvent: {}
+[70.077755] (-) TimerEvent: {}
+[70.178976] (-) TimerEvent: {}
+[70.280857] (-) TimerEvent: {}
+[70.382140] (-) TimerEvent: {}
+[70.483438] (-) TimerEvent: {}
+[70.585105] (-) TimerEvent: {}
+[70.686236] (-) TimerEvent: {}
+[70.787434] (-) TimerEvent: {}
+[70.888808] (-) TimerEvent: {}
+[70.990035] (-) TimerEvent: {}
+[71.091164] (-) TimerEvent: {}
+[71.192449] (-) TimerEvent: {}
+[71.293707] (-) TimerEvent: {}
+[71.395002] (-) TimerEvent: {}
+[71.496229] (-) TimerEvent: {}
+[71.597428] (-) TimerEvent: {}
+[71.698657] (-) TimerEvent: {}
+[71.800002] (-) TimerEvent: {}
+[71.901179] (-) TimerEvent: {}
+[72.002459] (-) TimerEvent: {}
+[72.103870] (-) TimerEvent: {}
+[72.205084] (-) TimerEvent: {}
+[72.306276] (-) TimerEvent: {}
+[72.407742] (-) TimerEvent: {}
+[72.509052] (-) TimerEvent: {}
+[72.610344] (-) TimerEvent: {}
+[72.711322] (-) TimerEvent: {}
+[72.812692] (-) TimerEvent: {}
+[72.913922] (-) TimerEvent: {}
+[73.015252] (-) TimerEvent: {}
+[73.116728] (-) TimerEvent: {}
+[73.217944] (-) TimerEvent: {}
+[73.319173] (-) TimerEvent: {}
+[73.420456] (-) TimerEvent: {}
+[73.521793] (-) TimerEvent: {}
+[73.623423] (-) TimerEvent: {}
+[73.724747] (-) TimerEvent: {}
+[73.825712] (-) TimerEvent: {}
+[73.926663] (-) TimerEvent: {}
+[74.027635] (-) TimerEvent: {}
+[74.128687] (-) TimerEvent: {}
+[74.229616] (-) TimerEvent: {}
+[74.330652] (-) TimerEvent: {}
+[74.431586] (-) TimerEvent: {}
+[74.532629] (-) TimerEvent: {}
+[74.633541] (-) TimerEvent: {}
+[74.734474] (-) TimerEvent: {}
+[74.835369] (-) TimerEvent: {}
+[74.937147] (-) TimerEvent: {}
+[75.038105] (-) TimerEvent: {}
+[75.139805] (-) TimerEvent: {}
+[75.241594] (-) TimerEvent: {}
+[75.342865] (-) TimerEvent: {}
+[75.444149] (-) TimerEvent: {}
+[75.545210] (-) TimerEvent: {}
+[75.646785] (-) TimerEvent: {}
+[75.747853] (-) TimerEvent: {}
+[75.849045] (-) TimerEvent: {}
+[75.950237] (-) TimerEvent: {}
+[76.051479] (-) TimerEvent: {}
+[76.152851] (-) TimerEvent: {}
+[76.253775] (-) TimerEvent: {}
+[76.354608] (-) TimerEvent: {}
+[76.455450] (-) TimerEvent: {}
+[76.556316] (-) TimerEvent: {}
+[76.657117] (-) TimerEvent: {}
+[76.757940] (-) TimerEvent: {}
+[76.858742] (-) TimerEvent: {}
+[76.959596] (-) TimerEvent: {}
+[77.060472] (-) TimerEvent: {}
+[77.161897] (-) TimerEvent: {}
+[77.262874] (-) TimerEvent: {}
+[77.363924] (-) TimerEvent: {}
+[77.465167] (-) TimerEvent: {}
+[77.566446] (-) TimerEvent: {}
+[77.667930] (-) TimerEvent: {}
+[77.769444] (-) TimerEvent: {}
+[77.870980] (-) TimerEvent: {}
+[77.972527] (-) TimerEvent: {}
+[78.073534] (-) TimerEvent: {}
+[78.174579] (-) TimerEvent: {}
+[78.275761] (-) TimerEvent: {}
+[78.376691] (-) TimerEvent: {}
+[78.477685] (-) TimerEvent: {}
+[78.578637] (-) TimerEvent: {}
+[78.679780] (-) TimerEvent: {}
+[78.780709] (-) TimerEvent: {}
+[78.881637] (-) TimerEvent: {}
+[78.982818] (-) TimerEvent: {}
+[79.083814] (-) TimerEvent: {}
+[79.184933] (-) TimerEvent: {}
+[79.285880] (-) TimerEvent: {}
+[79.386879] (-) TimerEvent: {}
+[79.487931] (-) TimerEvent: {}
+[79.589554] (-) TimerEvent: {}
+[79.692009] (-) TimerEvent: {}
+[79.794362] (-) TimerEvent: {}
+[79.908911] (-) TimerEvent: {}
+[80.010167] (-) TimerEvent: {}
+[80.112109] (-) TimerEvent: {}
+[80.216335] (-) TimerEvent: {}
+[80.318174] (-) TimerEvent: {}
+[80.419463] (-) TimerEvent: {}
+[80.520848] (-) TimerEvent: {}
+[80.622498] (-) TimerEvent: {}
+[80.680029] (ps_ros2_common) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable joy_test\x1b[0m\n'}
+[80.722820] (-) TimerEvent: {}
+[80.824719] (-) TimerEvent: {}
+[80.926930] (-) TimerEvent: {}
+[81.031616] (-) TimerEvent: {}
+[81.133573] (-) TimerEvent: {}
+[81.206700] (ps_ros2_common) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libps_ros2_common.so\x1b[0m\n'}
+[81.233910] (-) TimerEvent: {}
+[81.336334] (-) TimerEvent: {}
+[81.438182] (-) TimerEvent: {}
+[81.540552] (-) TimerEvent: {}
+[81.642423] (-) TimerEvent: {}
+[81.746019] (-) TimerEvent: {}
+[81.849747] (-) TimerEvent: {}
+[81.953558] (-) TimerEvent: {}
+[82.057345] (-) TimerEvent: {}
+[82.160364] (-) TimerEvent: {}
+[82.262388] (-) TimerEvent: {}
+[82.364527] (-) TimerEvent: {}
+[82.467225] (-) TimerEvent: {}
+[82.570154] (-) TimerEvent: {}
+[82.673886] (-) TimerEvent: {}
+[82.777361] (-) TimerEvent: {}
+[82.879196] (-) TimerEvent: {}
+[82.980410] (-) TimerEvent: {}
+[83.083645] (-) TimerEvent: {}
+[83.185206] (-) TimerEvent: {}
+[83.211352] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rt_usb_9axisimu_driver\x1b[0m\n'}
+[83.285470] (-) TimerEvent: {}
+[83.387435] (-) TimerEvent: {}
+[83.490962] (-) TimerEvent: {}
+[83.593591] (-) TimerEvent: {}
+[83.698746] (-) TimerEvent: {}
+[83.798063] (ps_ros2_common) StdoutLine: {'line': b'[100%] Built target joy_test\n'}
+[83.799589] (-) TimerEvent: {}
+[83.901018] (-) TimerEvent: {}
+[84.003110] (-) TimerEvent: {}
+[84.104878] (-) TimerEvent: {}
+[84.206483] (-) TimerEvent: {}
+[84.307870] (-) TimerEvent: {}
+[84.392868] (ps_ros2_common) StdoutLine: {'line': b'[100%] Built target ps_ros2_common\n'}
+[84.408149] (-) TimerEvent: {}
+[84.444612] (ps_ros2_common) CommandEnded: {'returncode': 0}
+[84.508350] (-) TimerEvent: {}
+[84.562706] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'[100%] Built target rt_usb_9axisimu_driver\n'}
+[84.596842] (ps_ros2_common) JobProgress: {'identifier': 'ps_ros2_common', 'progress': 'install'}
+[84.598142] (ps_ros2_common) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shelfer/my_ros2_ws/build/ps_ros2_common'], 'cwd': '/home/shelfer/my_ros2_ws/build/ps_ros2_common', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shelfer'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib:/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib:/home/shelfer/my_ros2_ws/install/controller_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shelfer'), ('OLDPWD', '/home/shelfer'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shelfer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shelfer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shelfer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shelfer-desktop:@/tmp/.ICE-unix/1282,unix/shelfer-desktop:/tmp/.ICE-unix/1282'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4c9a295b_b90f_4372_94b3_b17ce45f30f0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SDYJ01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/cugo_controller:/home/shelfer/my_ros2_ws/install/controller_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shelfer/my_ros2_ws/build/ps_ros2_common'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shelfer/my_ros2_ws/build/test_imu:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/build/cugo_controller:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/controller_interfaces:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble')]), 'shell': False}
+[84.608476] (-) TimerEvent: {}
+[84.609827] (rt_usb_9axisimu_driver) CommandEnded: {'returncode': 0}
+[84.634834] (ps_ros2_common) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[84.637192] (ps_ros2_common) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[84.639922] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/lib/ps_ros2_common/joy_test\n'}
+[84.678936] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/launch/test.launch.py\n'}
+[84.708652] (-) TimerEvent: {}
+[84.714678] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/launch/test_composable.launch.py\n'}
+[84.752242] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ament_index/resource_index/package_run_dependencies/ps_ros2_common\n'}
+[84.788980] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ament_index/resource_index/parent_prefix_path/ps_ros2_common\n'}
+[84.791778] (rt_usb_9axisimu_driver) JobProgress: {'identifier': 'rt_usb_9axisimu_driver', 'progress': 'install'}
+[84.793049] (rt_usb_9axisimu_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver'], 'cwd': '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shelfer'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib:/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib:/home/shelfer/my_ros2_ws/install/controller_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shelfer'), ('OLDPWD', '/home/shelfer'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shelfer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shelfer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shelfer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/shelfer-desktop:@/tmp/.ICE-unix/1282,unix/shelfer-desktop:/tmp/.ICE-unix/1282'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4c9a295b_b90f_4372_94b3_b17ce45f30f0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SDYJ01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/cugo_controller:/home/shelfer/my_ros2_ws/install/controller_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shelfer/my_ros2_ws/build/test_imu:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/build/cugo_controller:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver:/home/shelfer/my_ros2_ws/install/ps_ros2_common:/home/shelfer/my_ros2_ws/install/controller_interfaces:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble')]), 'shell': False}
+[84.808918] (-) TimerEvent: {}
+[84.828434] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/environment/ament_prefix_path.sh\n'}
+[84.830026] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[84.832064] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[84.833533] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/library_path.sh\n'}
+[84.867321] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/environment/ament_prefix_path.dsv\n'}
+[84.871559] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/library_path.dsv\n'}
+[84.904770] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/environment/path.sh\n'}
+[84.909133] (-) TimerEvent: {}
+[84.910863] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/include/rt_usb_9axisimu_driver/rt_usb_9axisimu.hpp\n'}
+[84.941185] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/environment/path.dsv\n'}
+[84.948872] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/include/rt_usb_9axisimu_driver/rt_usb_9axisimu_driver.hpp\n'}
+[84.979096] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/local_setup.bash\n'}
+[84.984615] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/include/rt_usb_9axisimu_driver/rt_usb_9axisimu_driver_component.hpp\n'}
+[85.009415] (-) TimerEvent: {}
+[85.016409] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/local_setup.sh\n'}
+[85.021962] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/include/rt_usb_9axisimu_driver/visibility_control.h\n'}
+[85.055655] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/local_setup.zsh\n'}
+[85.061864] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib/rt_usb_9axisimu_driver/rt_usb_9axisimu_driver\n'}
+[85.092309] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/local_setup.dsv\n'}
+[85.100513] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver//launch/rt_usb_9axisimu_driver.launch.py\n'}
+[85.109623] (-) TimerEvent: {}
+[85.129613] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/package.dsv\n'}
+[85.139162] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/ament_index/resource_index/package_run_dependencies/rt_usb_9axisimu_driver\n'}
+[85.170420] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ament_index/resource_index/packages/ps_ros2_common\n'}
+[85.177866] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/ament_index/resource_index/parent_prefix_path/rt_usb_9axisimu_driver\n'}
+[85.209286] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ament_index/resource_index/rclcpp_components/ps_ros2_common\n'}
+[85.210016] (-) TimerEvent: {}
+[85.216027] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/ament_prefix_path.sh\n'}
+[85.248330] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/cmake/ps_ros2_commonConfig.cmake\n'}
+[85.256224] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/ament_prefix_path.dsv\n'}
+[85.287411] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/cmake/ps_ros2_commonConfig-version.cmake\n'}
+[85.294220] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/path.sh\n'}
+[85.310354] (-) TimerEvent: {}
+[85.326466] (ps_ros2_common) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/ps_ros2_common/share/ps_ros2_common/package.xml\n'}
+[85.332690] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/path.dsv\n'}
+[85.365355] (ps_ros2_common) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/ps_ros2_common/lib/libps_ros2_common.so\n'}
+[85.373420] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/local_setup.bash\n'}
+[85.410596] (-) TimerEvent: {}
+[85.411483] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/local_setup.sh\n'}
+[85.419152] (ps_ros2_common) StdoutLine: {'line': b'-- Set runtime path of "/home/shelfer/my_ros2_ws/install/ps_ros2_common/lib/libps_ros2_common.so" to ""\n'}
+[85.425419] (ps_ros2_common) CommandEnded: {'returncode': 0}
+[85.451004] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/local_setup.zsh\n'}
+[85.489197] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/local_setup.dsv\n'}
+[85.510934] (-) TimerEvent: {}
+[85.526171] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/package.dsv\n'}
+[85.565746] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/ament_index/resource_index/packages/rt_usb_9axisimu_driver\n'}
+[85.603200] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/ament_index/resource_index/rclcpp_components/rt_usb_9axisimu_driver\n'}
+[85.611099] (-) TimerEvent: {}
+[85.646376] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[85.686713] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[85.711271] (-) TimerEvent: {}
+[85.718868] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[85.720845] (ps_ros2_common) JobEnded: {'identifier': 'ps_ros2_common', 'rc': 0}
+[85.758013] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[85.794948] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/rt_usb_9axisimu_driverConfig.cmake\n'}
+[85.811487] (-) TimerEvent: {}
+[85.830292] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/rt_usb_9axisimu_driverConfig-version.cmake\n'}
+[85.868762] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/package.xml\n'}
+[85.905805] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib/librt_usb_9axisimu_driver_component.so\n'}
+[85.911731] (-) TimerEvent: {}
+[85.929756] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib/librt_usb_9axisimu_driver_component.so" to ""\n'}
+[85.930334] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/export_rt_usb_9axisimu_driverExport.cmake\n'}
+[85.931673] (rt_usb_9axisimu_driver) StdoutLine: {'line': b'-- Installing: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/export_rt_usb_9axisimu_driverExport-noconfig.cmake\n'}
+[85.938137] (rt_usb_9axisimu_driver) CommandEnded: {'returncode': 0}
+[86.011931] (-) TimerEvent: {}
+[86.112650] (-) TimerEvent: {}
+[86.214983] (-) TimerEvent: {}
+[86.243219] (rt_usb_9axisimu_driver) JobEnded: {'identifier': 'rt_usb_9axisimu_driver', 'rc': 0}
+[86.247092] (-) EventReactorShutdown: {}

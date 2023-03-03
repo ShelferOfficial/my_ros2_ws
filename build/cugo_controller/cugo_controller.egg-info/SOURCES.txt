@@ -2,8 +2,11 @@ package.xml
 setup.cfg
 setup.py
 cugo_controller/__init__.py
-cugo_controller/ps_publisher.py
-cugo_controller/ps_subscriber.py
+cugo_controller/cugo_controller.py
+cugo_controller/ps4_publisher.py
+cugo_controller/test_python.py
+cugo_controller/ultra_client.py
+cugo_controller/ultrasonic_client.py
 cugo_controller.egg-info/PKG-INFO
 cugo_controller.egg-info/SOURCES.txt
 cugo_controller.egg-info/dependency_links.txt
@@ -11,4 +14,5 @@ cugo_controller.egg-info/entry_points.txt
 cugo_controller.egg-info/requires.txt
 cugo_controller.egg-info/top_level.txt
 cugo_controller.egg-info/zip-safe
+launch/cugo_launch.py
 resource/cugo_controller

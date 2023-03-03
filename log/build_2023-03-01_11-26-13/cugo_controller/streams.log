@@ -1,0 +1,26 @@
+[4.690s] Invoking command in '/home/shelfer/my_ros2_ws/build/cugo_controller': PYTHONPATH=/home/shelfer/my_ros2_ws/build/cugo_controller/prefix_override:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shelfer/my_ros2_ws/build/cugo_controller/build --no-deps install_data
+[6.492s] running develop
+[7.994s] running egg_info
+[7.995s] creating cugo_controller.egg-info
+[7.998s] writing cugo_controller.egg-info/PKG-INFO
+[7.999s] writing dependency_links to cugo_controller.egg-info/dependency_links.txt
+[8.000s] writing entry points to cugo_controller.egg-info/entry_points.txt
+[8.001s] writing requirements to cugo_controller.egg-info/requires.txt
+[8.002s] writing top-level names to cugo_controller.egg-info/top_level.txt
+[8.004s] writing manifest file 'cugo_controller.egg-info/SOURCES.txt'
+[8.014s] reading manifest file 'cugo_controller.egg-info/SOURCES.txt'
+[8.017s] writing manifest file 'cugo_controller.egg-info/SOURCES.txt'
+[8.024s] running build_ext
+[8.026s] Creating /home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages/cugo-controller.egg-link (link to .)
+[8.032s] Installing cugo_controller script to /home/shelfer/my_ros2_ws/install/cugo_controller/lib/cugo_controller
+[8.034s] Installing ps4_publisher script to /home/shelfer/my_ros2_ws/install/cugo_controller/lib/cugo_controller
+[8.036s] Installing ultrasonic_client script to /home/shelfer/my_ros2_ws/install/cugo_controller/lib/cugo_controller
+[8.038s] 
+[8.040s] Installed /home/shelfer/my_ros2_ws/build/cugo_controller
+[8.041s] running install_data
+[8.042s] creating /home/shelfer/my_ros2_ws/install/cugo_controller/share/ament_index
+[8.042s] creating /home/shelfer/my_ros2_ws/install/cugo_controller/share/ament_index/resource_index
+[8.043s] creating /home/shelfer/my_ros2_ws/install/cugo_controller/share/ament_index/resource_index/packages
+[8.045s] copying resource/cugo_controller -> /home/shelfer/my_ros2_ws/install/cugo_controller/share/ament_index/resource_index/packages
+[8.046s] copying package.xml -> /home/shelfer/my_ros2_ws/install/cugo_controller/share/cugo_controller
+[8.257s] Invoked command in '/home/shelfer/my_ros2_ws/build/cugo_controller' returned '0': PYTHONPATH=/home/shelfer/my_ros2_ws/build/cugo_controller/prefix_override:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shelfer/my_ros2_ws/build/cugo_controller/build --no-deps install_data

@@ -41,6 +41,7 @@ struct Num_
       this->x = 0.0;
       this->y = 0.0;
       this->dir = 0;
+      this->is_no_one = false;
     }
   }
 
@@ -53,6 +54,7 @@ struct Num_
       this->x = 0.0;
       this->y = 0.0;
       this->dir = 0;
+      this->is_no_one = false;
     }
   }
 
@@ -66,6 +68,9 @@ struct Num_
   using _dir_type =
     int8_t;
   _dir_type dir;
+  using _is_no_one_type =
+    bool;
+  _is_no_one_type is_no_one;
 
   // setters for named parameter idiom
   Type & set__x(
@@ -84,6 +89,12 @@ struct Num_
     const int8_t & _arg)
   {
     this->dir = _arg;
+    return *this;
+  }
+  Type & set__is_no_one(
+    const bool & _arg)
+  {
+    this->is_no_one = _arg;
     return *this;
   }
 
@@ -136,6 +147,9 @@ struct Num_
       return false;
     }
     if (this->dir != other.dir) {
+      return false;
+    }
+    if (this->is_no_one != other.is_no_one) {
       return false;
     }
     return true;

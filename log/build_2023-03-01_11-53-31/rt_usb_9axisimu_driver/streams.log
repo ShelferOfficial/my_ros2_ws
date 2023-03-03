@@ -1,0 +1,39 @@
+[2.102s] Invoking command in '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --build /home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver -- -j4 -l4
+[2.556s] [ 60%] Built target rt_usb_9axisimu_driver_component
+[2.716s] [100%] Built target rt_usb_9axisimu_driver
+[2.773s] Invoked command in '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --build /home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver -- -j4 -l4
+[2.999s] Invoking command in '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --install /home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver
+[3.052s] -- Install configuration: ""
+[3.053s] -- Execute custom install script
+[3.055s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/library_path.sh
+[3.056s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/library_path.dsv
+[3.059s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/include/rt_usb_9axisimu_driver/rt_usb_9axisimu.hpp
+[3.060s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/include/rt_usb_9axisimu_driver/rt_usb_9axisimu_driver.hpp
+[3.061s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/include/rt_usb_9axisimu_driver/rt_usb_9axisimu_driver_component.hpp
+[3.062s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/include/rt_usb_9axisimu_driver/visibility_control.h
+[3.064s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib/rt_usb_9axisimu_driver/rt_usb_9axisimu_driver
+[3.066s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver//launch/rt_usb_9axisimu_driver.launch.py
+[3.067s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/ament_index/resource_index/package_run_dependencies/rt_usb_9axisimu_driver
+[3.069s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/ament_index/resource_index/parent_prefix_path/rt_usb_9axisimu_driver
+[3.070s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/ament_prefix_path.sh
+[3.071s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/ament_prefix_path.dsv
+[3.073s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/path.sh
+[3.074s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/path.dsv
+[3.084s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/local_setup.bash
+[3.087s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/local_setup.sh
+[3.088s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/local_setup.zsh
+[3.088s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/local_setup.dsv
+[3.089s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/package.dsv
+[3.130s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/ament_index/resource_index/packages/rt_usb_9axisimu_driver
+[3.137s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/ament_index/resource_index/rclcpp_components/rt_usb_9axisimu_driver
+[3.138s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/ament_cmake_export_targets-extras.cmake
+[3.139s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.140s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.149s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[3.150s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/rt_usb_9axisimu_driverConfig.cmake
+[3.154s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/rt_usb_9axisimu_driverConfig-version.cmake
+[3.156s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/package.xml
+[3.159s] -- Up-to-date: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib/librt_usb_9axisimu_driver_component.so
+[3.160s] -- Up-to-date: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/export_rt_usb_9axisimu_driverExport.cmake
+[3.161s] -- Up-to-date: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/export_rt_usb_9axisimu_driverExport-noconfig.cmake
+[3.199s] Invoked command in '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --install /home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver

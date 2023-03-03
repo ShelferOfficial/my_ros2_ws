@@ -1,0 +1,229 @@
+[0.183s] Invoking command in '/home/shelfer/my_ros2_ws/build/controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake /home/shelfer/my_ros2_ws/src/controller_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shelfer/my_ros2_ws/install/controller_interfaces
+[1.740s] -- The C compiler identification is GNU 11.3.0
+[1.740s] -- The CXX compiler identification is GNU 11.3.0
+[1.741s] -- Detecting C compiler ABI info
+[2.060s] -- Detecting C compiler ABI info - done
+[2.100s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.103s] -- Detecting C compile features
+[2.107s] -- Detecting C compile features - done
+[2.130s] -- Detecting CXX compiler ABI info
+[2.712s] -- Detecting CXX compiler ABI info - done
+[2.757s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.760s] -- Detecting CXX compile features
+[2.763s] -- Detecting CXX compile features - done
+[2.803s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.235s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.884s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.492s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.551s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.660s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.196s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.162s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.081s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.254s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[11.289s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.500s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[11.501s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.502s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.503s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[11.634s] -- Found PythonExtra: .so  
+[11.882s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.232s] -- Added test 'lint_cmake' to check CMake code style
+[12.249s] -- Added test 'xmllint' to check XML markup files
+[12.282s] -- Configuring done
+[12.528s] -- Generating done
+[12.546s] -- Build files have been written to: /home/shelfer/my_ros2_ws/build/controller_interfaces
+[12.577s] Invoked command in '/home/shelfer/my_ros2_ws/build/controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake /home/shelfer/my_ros2_ws/src/controller_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shelfer/my_ros2_ws/install/controller_interfaces
+[12.583s] Invoking command in '/home/shelfer/my_ros2_ws/build/controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --build /home/shelfer/my_ros2_ws/build/controller_interfaces -- -j4 -l4
+[12.859s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.870s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.110s] [  5%] Built target ament_cmake_python_symlink_controller_interfaces
+[15.783s] [  5%] Built target controller_interfaces__cpp
+[15.880s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[15.930s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[16.805s] [ 12%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_generator_c.dir/rosidl_generator_c/controller_interfaces/msg/detail/num__functions.c.o[0m
+[16.961s] running egg_info
+[16.984s] creating controller_interfaces.egg-info
+[16.986s] writing controller_interfaces.egg-info/PKG-INFO
+[16.988s] writing dependency_links to controller_interfaces.egg-info/dependency_links.txt
+[16.990s] writing top-level names to controller_interfaces.egg-info/top_level.txt
+[16.993s] writing manifest file 'controller_interfaces.egg-info/SOURCES.txt'
+[17.047s] reading manifest file 'controller_interfaces.egg-info/SOURCES.txt'
+[17.058s] writing manifest file 'controller_interfaces.egg-info/SOURCES.txt'
+[17.516s] [ 12%] Built target ament_cmake_python_build_controller_interfaces_egg
+[17.538s] [ 15%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_generator_c.dir/rosidl_generator_c/controller_interfaces/srv/detail/ultra__functions.c.o[0m
+[17.598s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[18.144s] [ 20%] [32m[1mLinking C shared library libcontroller_interfaces__rosidl_generator_c.so[0m
+[18.428s] [ 20%] Built target controller_interfaces__rosidl_generator_c
+[18.552s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[19.022s] [ 25%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__type_support.cpp.o[0m
+[19.688s] [ 28%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[20.993s] [ 30%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_interfaces/msg/num__type_support.cpp.o[0m
+[24.168s] [ 33%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_interfaces/msg/detail/num__type_support.c.o[0m
+[24.589s] [ 35%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp.o[0m
+[24.645s] [ 38%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_interfaces/srv/detail/ultra__type_support.c.o[0m
+[25.189s] [ 41%] [32m[1mLinking C shared library libcontroller_interfaces__rosidl_typesupport_introspection_c.so[0m
+[25.229s] [ 43%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_interfaces/srv/ultra__type_support.cpp.o[0m
+[25.558s] [ 43%] Built target controller_interfaces__rosidl_typesupport_introspection_c
+[25.643s] [ 46%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[26.091s] [ 48%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_interfaces/srv/detail/dds_fastrtps/ultra__type_support.cpp.o[0m
+[29.160s] [ 51%] [32m[1mLinking CXX shared library libcontroller_interfaces__rosidl_typesupport_cpp.so[0m
+[29.826s] [ 51%] Built target controller_interfaces__rosidl_typesupport_cpp
+[29.866s] [ 53%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_interfaces/msg/num__type_support.cpp.o[0m
+[29.990s] [ 56%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[29.992s] [ 58%] [32m[1mLinking CXX shared library libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[30.365s] [ 61%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_interfaces/srv/ultra__type_support.cpp.o[0m
+[30.564s] [ 61%] Built target controller_interfaces__rosidl_typesupport_introspection_cpp
+[30.763s] [ 64%] [32m[1mLinking CXX shared library libcontroller_interfaces__rosidl_typesupport_c.so[0m
+[31.310s] [ 64%] Built target controller_interfaces__rosidl_typesupport_c
+[32.221s] [ 66%] [32m[1mLinking CXX shared library libcontroller_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[32.794s] [ 69%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[32.876s] [ 71%] [32mBuilding CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_interfaces/srv/detail/ultra__type_support_c.cpp.o[0m
+[33.044s] [ 71%] Built target controller_interfaces__rosidl_typesupport_fastrtps_cpp
+[35.924s] [ 74%] [32m[1mLinking CXX shared library libcontroller_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[36.392s] [ 74%] Built target controller_interfaces__rosidl_typesupport_fastrtps_c
+[36.508s] [ 74%] Built target controller_interfaces
+[36.628s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[39.977s] [ 76%] Built target controller_interfaces__py
+[40.155s] [ 79%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_generator_py.dir/rosidl_generator_py/controller_interfaces/msg/_num_s.c.o[0m
+[40.156s] [ 82%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_generator_py.dir/rosidl_generator_py/controller_interfaces/srv/_ultra_s.c.o[0m
+[41.312s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/controller_interfaces/libcontroller_interfaces__rosidl_generator_py.so[0m
+[41.571s] [ 84%] Built target controller_interfaces__rosidl_generator_py
+[41.794s] [ 87%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[41.797s] [ 89%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[41.831s] [ 92%] [32mBuilding C object CMakeFiles/controller_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[42.650s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/controller_interfaces/controller_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[42.692s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/controller_interfaces/controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[42.910s] [100%] [32m[1mLinking C shared library rosidl_generator_py/controller_interfaces/controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[43.004s] [100%] Built target controller_interfaces__rosidl_typesupport_c__pyext
+[43.066s] [100%] Built target controller_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[43.179s] [100%] Built target controller_interfaces__rosidl_typesupport_introspection_c__pyext
+[43.248s] Invoked command in '/home/shelfer/my_ros2_ws/build/controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --build /home/shelfer/my_ros2_ws/build/controller_interfaces -- -j4 -l4
+[44.007s] Invoking command in '/home/shelfer/my_ros2_ws/build/controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --install /home/shelfer/my_ros2_ws/build/controller_interfaces
+[44.052s] -- Install configuration: ""
+[44.056s] -- Execute custom install script
+[44.060s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/ament_index/resource_index/rosidl_interfaces/controller_interfaces
+[44.115s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__functions.h
+[44.164s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__struct.h
+[44.214s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__type_support.h
+[44.267s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/num.h
+[44.339s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_generator_c__visibility_control.h
+[44.388s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__functions.h
+[44.437s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__struct.h
+[44.483s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__type_support.h
+[44.534s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/ultra.h
+[44.583s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/library_path.sh
+[44.655s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/library_path.dsv
+[44.728s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[44.777s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[44.826s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__rosidl_typesupport_fastrtps_c.h
+[44.875s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[44.926s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[44.976s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__rosidl_typesupport_introspection_c.h
+[45.027s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__builder.hpp
+[45.078s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__struct.hpp
+[45.135s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__traits.hpp
+[45.184s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/num.hpp
+[45.246s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__builder.hpp
+[45.297s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__struct.hpp
+[45.356s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__traits.hpp
+[45.405s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/ultra.hpp
+[45.462s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[45.512s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[45.564s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__rosidl_typesupport_fastrtps_cpp.hpp
+[45.616s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[45.670s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/ultra__rosidl_typesupport_introspection_cpp.hpp
+[45.721s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/pythonpath.sh
+[45.771s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/pythonpath.dsv
+[45.823s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[45.873s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[45.923s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[45.972s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[46.029s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/__init__.py
+[46.079s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_c.c
+[46.130s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[46.179s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[46.230s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[46.281s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[46.331s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[46.381s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/libcontroller_interfaces__rosidl_generator_py.so
+[46.433s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/msg/__init__.py
+[46.482s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/msg/_num.py
+[46.534s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/msg/_num_s.c
+[46.582s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/__init__.py
+[46.637s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_ultra.py
+[46.683s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_ultra_s.c
+[46.736s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[46.741s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[46.745s] -- Up-to-date symlink: /home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[46.748s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/msg/Num.idl
+[46.798s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/srv/Ultra.idl
+[46.849s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/msg/Num.msg
+[46.900s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/srv/Ultra.srv
+[46.951s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/srv/Ultra_Request.msg
+[47.000s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/srv/Ultra_Response.msg
+[47.050s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/ament_index/resource_index/package_run_dependencies/controller_interfaces
+[47.100s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/ament_index/resource_index/parent_prefix_path/controller_interfaces
+[47.153s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/ament_prefix_path.sh
+[47.202s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/ament_prefix_path.dsv
+[47.253s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/path.sh
+[47.303s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/environment/path.dsv
+[47.355s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/local_setup.bash
+[47.405s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/local_setup.sh
+[47.455s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/local_setup.zsh
+[47.506s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/local_setup.dsv
+[47.559s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/package.dsv
+[47.616s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/ament_index/resource_index/packages/controller_interfaces
+[47.672s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/rosidl_cmake-extras.cmake
+[47.722s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[47.775s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[47.827s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[47.877s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[47.928s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.983s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[48.046s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfacesConfig.cmake
+[48.104s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfacesConfig-version.cmake
+[48.155s] -- Symlinking: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/package.xml
+[48.207s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_c.so
+[48.212s] -- Set runtime path of "/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_c.so" to ""
+[48.215s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_c.so
+[48.220s] -- Set runtime path of "/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[48.223s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_c.so
+[48.228s] -- Set runtime path of "/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[48.231s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_c.so
+[48.237s] -- Set runtime path of "/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_c.so" to ""
+[48.240s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[48.246s] -- Set runtime path of "/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[48.249s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so
+[48.254s] -- Set runtime path of "/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[48.256s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_cpp.so
+[48.261s] -- Set runtime path of "/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_cpp.so" to ""
+[48.549s] Listing '/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces'...
+[48.551s] Compiling '/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/__init__.py'...
+[48.552s] Listing '/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/msg'...
+[48.553s] Compiling '/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/msg/__init__.py'...
+[48.554s] Compiling '/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/msg/_num.py'...
+[48.554s] Listing '/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv'...
+[48.555s] Compiling '/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/__init__.py'...
+[48.556s] Compiling '/home/shelfer/my_ros2_ws/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_ultra.py'...
+[48.599s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_py.so
+[48.606s] -- Set runtime path of "/home/shelfer/my_ros2_ws/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_py.so" to ""
+[48.609s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_cExport.cmake
+[48.614s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_cExport-noconfig.cmake
+[48.618s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[48.622s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[48.626s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[48.638s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[48.642s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cExport.cmake
+[48.646s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[48.651s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_cppExport.cmake
+[48.655s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[48.659s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[48.663s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[48.667s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[48.671s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cppExport.cmake
+[48.675s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[48.679s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_pyExport.cmake
+[48.683s] -- Installing: /home/shelfer/my_ros2_ws/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[48.711s] Invoked command in '/home/shelfer/my_ros2_ws/build/controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --install /home/shelfer/my_ros2_ws/build/controller_interfaces

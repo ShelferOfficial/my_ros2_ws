@@ -21,16 +21,32 @@ namespace msg
 namespace builder
 {
 
+class Init_Num_is_no_one
+{
+public:
+  explicit Init_Num_is_no_one(::controller_interfaces::msg::Num & msg)
+  : msg_(msg)
+  {}
+  ::controller_interfaces::msg::Num is_no_one(::controller_interfaces::msg::Num::_is_no_one_type arg)
+  {
+    msg_.is_no_one = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::controller_interfaces::msg::Num msg_;
+};
+
 class Init_Num_dir
 {
 public:
   explicit Init_Num_dir(::controller_interfaces::msg::Num & msg)
   : msg_(msg)
   {}
-  ::controller_interfaces::msg::Num dir(::controller_interfaces::msg::Num::_dir_type arg)
+  Init_Num_is_no_one dir(::controller_interfaces::msg::Num::_dir_type arg)
   {
     msg_.dir = std::move(arg);
-    return std::move(msg_);
+    return Init_Num_is_no_one(msg_);
   }
 
 private:

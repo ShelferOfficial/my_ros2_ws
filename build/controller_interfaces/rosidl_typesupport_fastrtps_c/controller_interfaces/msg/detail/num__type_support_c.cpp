@@ -64,6 +64,11 @@ static bool _Num__cdr_serialize(
     cdr << ros_message->dir;
   }
 
+  // Field name: is_no_one
+  {
+    cdr << (ros_message->is_no_one ? true : false);
+  }
+
   return true;
 }
 
@@ -89,6 +94,13 @@ static bool _Num__cdr_deserialize(
   // Field name: dir
   {
     cdr >> ros_message->dir;
+  }
+
+  // Field name: is_no_one
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->is_no_one = tmp ? true : false;
   }
 
   return true;
@@ -123,6 +135,12 @@ size_t get_serialized_size_controller_interfaces__msg__Num(
   // field.name dir
   {
     size_t item_size = sizeof(ros_message->dir);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name is_no_one
+  {
+    size_t item_size = sizeof(ros_message->is_no_one);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -168,6 +186,12 @@ size_t max_serialized_size_controller_interfaces__msg__Num(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
   // member: dir
+  {
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: is_no_one
   {
     size_t array_size = 1;
 

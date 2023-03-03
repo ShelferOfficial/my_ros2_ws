@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from controller_interfaces/srv/Ultra.srv
+// generated code does not contain a copyright notice
+
+
+module controller_interfaces {
+  module srv {
+    struct Ultra_Request {
+      boolean is_obstacle;
+    };
+    struct Ultra_Response {
+      boolean is_received;
+    };
+  };
+};

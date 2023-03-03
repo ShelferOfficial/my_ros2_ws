@@ -5,6 +5,7 @@ import lgpio
 
 from controller_interfaces.srv import Ultra 
 
+
 class ClientAsync(Node):
     def __init__(self):
         super().__init__('ultra_client')
@@ -59,21 +60,37 @@ class Ultrasonic():
 
     def distance(self, h, trig, echo):
         trigdata = lgpio.gpio_write(h, trig, 1)
-        time.sleep(0.00001)
+        time.sleep(0.001)
         trigdata = lgpio.gpio_write(h, trig, 0)
+
+        start = time.time()
         
-        while not lgpio.gpio_read(h, echo):
+        while lgpio.gpio_read(h, echo) == start:
+           goal = time.time()
+        
+        dist = (start - goal) * 34000 / 2
+        
+        return dist
+    
+        """
+        trigdata = lgpio.gpio_write(h, trig, 1)
+        time.sleep(0.001)
+        trigdata = lgpio.gpio_write(h, trig, 0)
+
+        while lgpio.gpio_read(h, echo) == end:
            sig_off = time.time()
-        while lgpio.gpio_read(h, echo):
+        
+        while lgpio.gpio_read(h, echo) == start:
            sig_on = time.time()
-           
+        
         dist = (sig_on - sig_off) * 34000 / 2
         
         return dist
-
+        """
+        
     def is_obstacle_appear(self):
         d = self.distance(self.h, self.trig, self.echo)
-        if d <= 30:
+        if d <= 50:
             return True
         
         return False
@@ -87,7 +104,6 @@ def main(args=None):
     ultrasonic = Ultrasonic()
     try:
         while True:
-            time.sleep(0.5)
             if ultrasonic.is_obstacle_appear():
                 client.send_stop_request()
                 Flag = True
@@ -104,10 +120,12 @@ def main(args=None):
                     try:
                         responce = client.future.result()
                     except Exception as e:
-                        client.get_logger().info("service call failed %r " % (e,))
+                        client.get_logger().info("ERROR service call failed %r " % (e,))
                     else:
-                        if responce.is_received:
-                            client.get_logger().info("command successfly sent")
+                        if not responce.is_received:
+                            #client.get_logger().info("command successfly sent")
+                            client.get_logger().info("ERROR command not successfly sent")
+                            
                     break
     except KeyboardInterrupt:
         pass

@@ -1,0 +1,17 @@
+[4.009s] Invoking command in '/home/shelfer/my_ros2_ws/build/test_imu': PYTHONPATH=/home/shelfer/my_ros2_ws/build/test_imu/prefix_override:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shelfer/my_ros2_ws/build/test_imu/build --no-deps install_data
+[5.564s] running develop
+[6.457s] running egg_info
+[6.458s] writing test_imu.egg-info/PKG-INFO
+[6.459s] writing dependency_links to test_imu.egg-info/dependency_links.txt
+[6.460s] writing entry points to test_imu.egg-info/entry_points.txt
+[6.461s] writing requirements to test_imu.egg-info/requires.txt
+[6.462s] writing top-level names to test_imu.egg-info/top_level.txt
+[6.472s] reading manifest file 'test_imu.egg-info/SOURCES.txt'
+[6.476s] writing manifest file 'test_imu.egg-info/SOURCES.txt'
+[6.482s] running build_ext
+[6.484s] Creating /home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages/test-imu.egg-link (link to .)
+[6.487s] Installing temperature_subscriber script to /home/shelfer/my_ros2_ws/install/test_imu/lib/test_imu
+[6.488s] 
+[6.489s] Installed /home/shelfer/my_ros2_ws/build/test_imu
+[6.489s] running install_data
+[6.656s] Invoked command in '/home/shelfer/my_ros2_ws/build/test_imu' returned '0': PYTHONPATH=/home/shelfer/my_ros2_ws/build/test_imu/prefix_override:/home/shelfer/my_ros2_ws/install/test_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shelfer/my_ros2_ws/build/test_imu/build --no-deps install_data

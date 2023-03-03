@@ -4,6 +4,10 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/controller_interfaces/msg/detail/num__struct.hpp"
   "rosidl_generator_cpp/controller_interfaces/msg/detail/num__traits.hpp"
   "rosidl_generator_cpp/controller_interfaces/msg/num.hpp"
+  "rosidl_generator_cpp/controller_interfaces/srv/detail/ultra__builder.hpp"
+  "rosidl_generator_cpp/controller_interfaces/srv/detail/ultra__struct.hpp"
+  "rosidl_generator_cpp/controller_interfaces/srv/detail/ultra__traits.hpp"
+  "rosidl_generator_cpp/controller_interfaces/srv/ultra.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

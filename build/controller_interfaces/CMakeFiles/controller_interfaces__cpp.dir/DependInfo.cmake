@@ -15,6 +15,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_cpp/controller_interfaces/msg/detail/num__builder.hpp" "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_cpp/controller_interfaces/msg/num.hpp"
   "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_cpp/controller_interfaces/msg/detail/num__struct.hpp" "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_cpp/controller_interfaces/msg/num.hpp"
   "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_cpp/controller_interfaces/msg/detail/num__traits.hpp" "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_cpp/controller_interfaces/msg/num.hpp"
+  "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_cpp/controller_interfaces/srv/detail/ultra__builder.hpp" "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_cpp/controller_interfaces/msg/num.hpp"
+  "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_cpp/controller_interfaces/srv/detail/ultra__struct.hpp" "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_cpp/controller_interfaces/msg/num.hpp"
+  "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_cpp/controller_interfaces/srv/detail/ultra__traits.hpp" "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_cpp/controller_interfaces/msg/num.hpp"
+  "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_cpp/controller_interfaces/srv/ultra.hpp" "/home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_generator_cpp/controller_interfaces/msg/num.hpp"
   )
 
 

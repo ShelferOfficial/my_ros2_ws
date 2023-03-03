@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/controller_interfaces/msg/__init__.py"
   "../rosidl_generator_py/controller_interfaces/msg/_num.py"
   "../rosidl_generator_py/controller_interfaces/msg/_num_s.c"
+  "../rosidl_generator_py/controller_interfaces/srv/__init__.py"
+  "../rosidl_generator_py/controller_interfaces/srv/_ultra.py"
+  "../rosidl_generator_py/controller_interfaces/srv/_ultra_s.c"
   "CMakeFiles/controller_interfaces__py"
 )
 

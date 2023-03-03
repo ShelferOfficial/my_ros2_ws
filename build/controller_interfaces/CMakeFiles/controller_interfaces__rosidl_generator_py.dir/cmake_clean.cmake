@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/controller_interfaces__rosidl_generator_py.dir/rosidl_generator_py/controller_interfaces/msg/_num_s.c.o"
   "CMakeFiles/controller_interfaces__rosidl_generator_py.dir/rosidl_generator_py/controller_interfaces/msg/_num_s.c.o.d"
+  "CMakeFiles/controller_interfaces__rosidl_generator_py.dir/rosidl_generator_py/controller_interfaces/srv/_ultra_s.c.o"
+  "CMakeFiles/controller_interfaces__rosidl_generator_py.dir/rosidl_generator_py/controller_interfaces/srv/_ultra_s.c.o.d"
   "rosidl_generator_py/controller_interfaces/libcontroller_interfaces__rosidl_generator_py.pdb"
   "rosidl_generator_py/controller_interfaces/libcontroller_interfaces__rosidl_generator_py.so"
 )

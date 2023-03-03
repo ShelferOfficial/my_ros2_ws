@@ -1,0 +1,85 @@
+[1.620s] Invoking command in '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake /home/shelfer/my_ros2_ws/src/rt_usb_9axisimu_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver
+[2.022s] -- The C compiler identification is GNU 11.3.0
+[2.376s] -- The CXX compiler identification is GNU 11.3.0
+[2.422s] -- Detecting C compiler ABI info
+[2.840s] -- Detecting C compiler ABI info - done
+[2.876s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.878s] -- Detecting C compile features
+[2.882s] -- Detecting C compile features - done
+[2.900s] -- Detecting CXX compiler ABI info
+[3.433s] -- Detecting CXX compiler ABI info - done
+[3.464s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.465s] -- Detecting CXX compile features
+[3.467s] -- Detecting CXX compile features - done
+[3.502s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.965s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[5.374s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.799s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[6.403s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.472s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.562s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.861s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.424s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.460s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.397s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.728s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.299s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.468s] -- Looking for pthread.h
+[9.969s] -- Looking for pthread.h - found
+[9.972s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.452s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.462s] -- Found Threads: TRUE  
+[11.509s] -- Found rclcpp_components: 16.0.3 (/opt/ros/humble/share/rclcpp_components/cmake)
+[12.037s] -- Found rclcpp_lifecycle: 16.0.3 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[12.360s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[13.281s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[14.196s] -- Configuring done
+[14.425s] -- Generating done
+[14.455s] -- Build files have been written to: /home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver
+[14.591s] Invoked command in '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake /home/shelfer/my_ros2_ws/src/rt_usb_9axisimu_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver
+[14.610s] Invoking command in '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --build /home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver -- -j4 -l4
+[15.244s] [ 20%] [32mBuilding CXX object CMakeFiles/rt_usb_9axisimu_driver_component.dir/src/rt_usb_9axisimu_driver.cpp.o[0m
+[15.256s] [ 40%] [32mBuilding CXX object CMakeFiles/rt_usb_9axisimu_driver_component.dir/src/rt_usb_9axisimu_driver_component.cpp.o[0m
+[61.691s] [ 60%] [32m[1mLinking CXX shared library librt_usb_9axisimu_driver_component.so[0m
+[63.708s] [ 60%] Built target rt_usb_9axisimu_driver_component
+[63.826s] [ 80%] [32mBuilding CXX object CMakeFiles/rt_usb_9axisimu_driver.dir/src/rt_usb_9axisimu_driver_node.cpp.o[0m
+[83.074s] [100%] [32m[1mLinking CXX executable rt_usb_9axisimu_driver[0m
+[84.425s] [100%] Built target rt_usb_9axisimu_driver
+[84.472s] Invoked command in '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --build /home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver -- -j4 -l4
+[84.661s] Invoking command in '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --install /home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver
+[84.692s] -- Install configuration: ""
+[84.694s] -- Execute custom install script
+[84.695s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/library_path.sh
+[84.734s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/library_path.dsv
+[84.773s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/include/rt_usb_9axisimu_driver/rt_usb_9axisimu.hpp
+[84.811s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/include/rt_usb_9axisimu_driver/rt_usb_9axisimu_driver.hpp
+[84.847s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/include/rt_usb_9axisimu_driver/rt_usb_9axisimu_driver_component.hpp
+[84.884s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/include/rt_usb_9axisimu_driver/visibility_control.h
+[84.924s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib/rt_usb_9axisimu_driver/rt_usb_9axisimu_driver
+[84.962s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver//launch/rt_usb_9axisimu_driver.launch.py
+[85.001s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/ament_index/resource_index/package_run_dependencies/rt_usb_9axisimu_driver
+[85.040s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/ament_index/resource_index/parent_prefix_path/rt_usb_9axisimu_driver
+[85.078s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/ament_prefix_path.sh
+[85.118s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/ament_prefix_path.dsv
+[85.156s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/path.sh
+[85.195s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/environment/path.dsv
+[85.235s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/local_setup.bash
+[85.273s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/local_setup.sh
+[85.313s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/local_setup.zsh
+[85.352s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/local_setup.dsv
+[85.388s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/package.dsv
+[85.428s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/ament_index/resource_index/packages/rt_usb_9axisimu_driver
+[85.465s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/ament_index/resource_index/rclcpp_components/rt_usb_9axisimu_driver
+[85.508s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/ament_cmake_export_targets-extras.cmake
+[85.549s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[85.581s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[85.620s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[85.657s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/rt_usb_9axisimu_driverConfig.cmake
+[85.692s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/rt_usb_9axisimu_driverConfig-version.cmake
+[85.731s] -- Symlinking: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/package.xml
+[85.768s] -- Installing: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib/librt_usb_9axisimu_driver_component.so
+[85.792s] -- Set runtime path of "/home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/lib/librt_usb_9axisimu_driver_component.so" to ""
+[85.792s] -- Installing: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/export_rt_usb_9axisimu_driverExport.cmake
+[85.793s] -- Installing: /home/shelfer/my_ros2_ws/install/rt_usb_9axisimu_driver/share/rt_usb_9axisimu_driver/cmake/export_rt_usb_9axisimu_driverExport-noconfig.cmake
+[85.811s] Invoked command in '/home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shelfer/my_ros2_ws/install/test_imu:/home/shelfer/my_ros2_ws/install/cugo_controller:/opt/ros/humble /usr/bin/cmake --install /home/shelfer/my_ros2_ws/build/rt_usb_9axisimu_driver

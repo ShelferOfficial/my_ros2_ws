@@ -1,0 +1,20 @@
+[5.497s] Invoking command in '/home/shelfer/my_ros2_ws/build/cugo_controller': PYTHONPATH=/home/shelfer/my_ros2_ws/build/cugo_controller/prefix_override:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shelfer/my_ros2_ws/build/cugo_controller/build --no-deps install_data
+[7.097s] running develop
+[8.344s] running egg_info
+[8.345s] writing cugo_controller.egg-info/PKG-INFO
+[8.347s] writing dependency_links to cugo_controller.egg-info/dependency_links.txt
+[8.348s] writing entry points to cugo_controller.egg-info/entry_points.txt
+[8.349s] writing requirements to cugo_controller.egg-info/requires.txt
+[8.350s] writing top-level names to cugo_controller.egg-info/top_level.txt
+[8.358s] reading manifest file 'cugo_controller.egg-info/SOURCES.txt'
+[8.362s] writing manifest file 'cugo_controller.egg-info/SOURCES.txt'
+[8.369s] running build_ext
+[8.369s] Creating /home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages/cugo-controller.egg-link (link to .)
+[8.373s] Installing cugo_controller script to /home/shelfer/my_ros2_ws/install/cugo_controller/lib/cugo_controller
+[8.374s] Installing ps4_publisher script to /home/shelfer/my_ros2_ws/install/cugo_controller/lib/cugo_controller
+[8.375s] Installing ultrasonic_client script to /home/shelfer/my_ros2_ws/install/cugo_controller/lib/cugo_controller
+[8.377s] 
+[8.377s] Installed /home/shelfer/my_ros2_ws/build/cugo_controller
+[8.378s] running install_data
+[8.378s] copying launch/cugo_launch.py -> /home/shelfer/my_ros2_ws/install/cugo_controller/share/cugo_controller
+[8.576s] Invoked command in '/home/shelfer/my_ros2_ws/build/cugo_controller' returned '0': PYTHONPATH=/home/shelfer/my_ros2_ws/build/cugo_controller/prefix_override:/home/shelfer/my_ros2_ws/install/cugo_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shelfer/my_ros2_ws/build/cugo_controller/build --no-deps install_data

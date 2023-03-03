@@ -11,6 +11,8 @@ module controller_interfaces {
       double y;
 
       int8 dir;
+
+      boolean is_no_one;
     };
   };
 };

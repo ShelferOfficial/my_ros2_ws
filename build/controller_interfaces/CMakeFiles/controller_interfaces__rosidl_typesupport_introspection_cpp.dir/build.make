@@ -78,11 +78,18 @@ rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__rosid
 rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em
 rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/controller_interfaces/msg/Num.idl
+rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/controller_interfaces/srv/Ultra.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shelfer/my_ros2_ws/build/controller_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ introspection for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp --generator-arguments-file /home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_typesupport_introspection_cpp__arguments.json
 
+rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__rosidl_typesupport_introspection_cpp.hpp: rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__rosidl_typesupport_introspection_cpp.hpp
+
 rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__type_support.cpp: rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__type_support.cpp
+
+rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp: rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp
 
 CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__type_support.cpp.o: CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make
 CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__type_support.cpp.o: rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__type_support.cpp
@@ -98,21 +105,37 @@ CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosid
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__type_support.cpp -o CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__type_support.cpp.s
 
+CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp.o: CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make
+CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp.o: rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp
+CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp.o: CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shelfer/my_ros2_ws/build/controller_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp.o -MF CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp.o.d -o CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp.o -c /home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp
+
+CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp > CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp.i
+
+CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shelfer/my_ros2_ws/build/controller_interfaces/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp -o CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp.s
+
 # Object files for target controller_interfaces__rosidl_typesupport_introspection_cpp
 controller_interfaces__rosidl_typesupport_introspection_cpp_OBJECTS = \
-"CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__type_support.cpp.o"
+"CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__type_support.cpp.o" \
+"CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp.o"
 
 # External object files for target controller_interfaces__rosidl_typesupport_introspection_cpp
 controller_interfaces__rosidl_typesupport_introspection_cpp_EXTERNAL_OBJECTS =
 
 libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__type_support.cpp.o
+libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp.o
 libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make
 libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librcutils.so
 libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shelfer/my_ros2_ws/build/controller_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shelfer/my_ros2_ws/build/controller_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,6 +148,8 @@ CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/clean
 
 CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
 CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/controller_interfaces/msg/detail/num__type_support.cpp
+CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__rosidl_typesupport_introspection_cpp.hpp
+CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/ultra__type_support.cpp
 	cd /home/shelfer/my_ros2_ws/build/controller_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shelfer/my_ros2_ws/src/controller_interfaces /home/shelfer/my_ros2_ws/src/controller_interfaces /home/shelfer/my_ros2_ws/build/controller_interfaces /home/shelfer/my_ros2_ws/build/controller_interfaces /home/shelfer/my_ros2_ws/build/controller_interfaces/CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/depend
 

@@ -1,2 +1,6 @@
 msg/Num.idl
 msg/Num.msg
+srv/Ultra.idl
+srv/Ultra.srv
+srv/Ultra_Request.msg
+srv/Ultra_Response.msg
